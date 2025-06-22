@@ -52,7 +52,7 @@ Welcome to my portfolio showcasing the iOS applications I've developed. Each pro
 ## Investment Calculators
 ### Financial Planning Tools for iOS
 
-![Investment Calculators Header](/assets/images/investment-calculators-header.png)
+![Investment Calculators App Icon](/assets/images/investment-calculators-icon.png)
 
 **Investment Calculators** is my comprehensive financial planning app that puts essential investment and loan calculations at users' fingertips. Built to make complex financial planning accessible to everyone, from beginners to experienced investors.
 

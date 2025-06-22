@@ -5,7 +5,7 @@ date: 2024-12-22
 categories: [iOS Development, SwiftUI, Financial Technology]
 tags: [investment, ios-app, swiftui, financial-planning, indie-developer]
 header:
-  teaser: /assets/images/investment-calculators-header.png
+  teaser: /assets/images/investment-calculators-icon.png
 ---
 
 ## Introducing Investment Calculators: Simplifying Financial Planning on iOS
@@ -16,8 +16,8 @@ As an iOS developer with a passion for creating practical solutions, I'm proud t
 
 Financial planning can be overwhelming, especially when trying to understand how different investment strategies impact long-term wealth building. Existing calculators were often scattered across different websites, lacked mobile optimization, or were too complex for everyday use. I saw an opportunity to create a unified, mobile-first solution that would put essential financial calculations at users' fingertips.
 
-![Investment Calculators Main Interface](/assets/images/investment-calculators-main.png)
-*The clean, calculator-focused interface designed for quick financial planning*
+![Investment Calculators App Icon](/assets/images/investment-calculators-icon.png)
+*Investment Calculators - bringing professional financial planning to your iPhone*
 
 ### Key Features I Built Into the App
 
@@ -38,12 +38,18 @@ I focused on creating an intuitive interface that makes complex financial calcul
 - Visual results with easy-to-understand formatting
 - Clean, distraction-free design focused on functionality
 
+![Investment Calculator Interface](/assets/images/investment-calculators-screenshot1.png)
+*Clean, intuitive calculator interface designed for easy financial planning*
+
 **Practical Financial Insights**
 Beyond just numbers, the app provides context to help users understand their calculations:
 - Breakdown of principal vs. interest/returns
 - Visual representation of growth over time
 - Comparison tools for different scenarios
 - Results formatted in user-friendly currency displays
+
+![Investment Results Display](/assets/images/investment-calculators-screenshot2.png)
+*Detailed results with clear breakdown of calculations and financial insights*
 
 ### Technical Implementation & Architecture
 
@@ -56,9 +62,6 @@ Building Investment Calculators taught me valuable lessons in creating reliable 
 - **Unit Testing** for critical financial calculation accuracy
 - **iOS Design Guidelines** compliance for native user experience
 - **Accessibility Support** ensuring the app works for all users
-
-![Calculator Interface](/assets/images/investment-calculator-demo.gif)
-*The responsive calculation interface I developed for real-time financial planning*
 
 One of the key challenges was ensuring mathematical precision in financial calculations while maintaining smooth user experience and handling edge cases gracefully.
 
