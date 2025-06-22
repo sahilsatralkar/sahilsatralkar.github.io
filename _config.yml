@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Sahil Satralkar"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "iOS Developer passionate about creating amazing mobile experiences"
   location         : "Sangli, India"
   email            :
