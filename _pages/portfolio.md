@@ -49,6 +49,47 @@ Welcome to my portfolio showcasing the iOS applications I've developed. Each pro
 
 ---
 
+## Investment Calculators
+### Financial Planning Tools for iOS
+
+![Investment Calculators Header](/assets/images/investment-calculators-header.png)
+
+**Investment Calculators** is my comprehensive financial planning app that puts essential investment and loan calculations at users' fingertips. Built to make complex financial planning accessible to everyone, from beginners to experienced investors.
+
+### Key Features
+- **Multiple Calculator Types**: Simple Interest, Compound Interest, EMI, SIP, Lump Sum, Goal Planning
+- **Real-time Calculations**: Instant updates as you adjust parameters
+- **Professional Results**: Clear breakdown of principal vs. interest/returns
+- **Goal-Based Planning**: Reverse-calculate required investments for financial targets
+- **User-Friendly Design**: Clean, distraction-free interface focused on functionality
+- **Mathematical Precision**: Industry-standard financial formulas with accurate results
+
+### Technical Stack
+- **Language**: Swift
+- **Framework**: SwiftUI
+- **Architecture**: Clean Architecture, MVVM patterns
+- **Features**: Real-time calculations, Input validation, Accessibility support
+- **Quality Assurance**: Comprehensive unit testing for financial accuracy
+
+### Project Impact
+- **App Store Launch**: Successfully published financial calculation app
+- **Mathematical Accuracy**: Implemented industry-standard financial formulas
+- **User Value**: Helping users make informed investment and loan decisions
+- **Open Source**: Contributing to the iOS development community
+
+### Technical Achievements
+- **Precision Mathematics**: Accurate financial calculations with proper error handling
+- **Performance Optimization**: Smooth real-time updates across all calculations
+- **User Experience**: Making complex financial concepts accessible through intuitive design
+- **Code Quality**: Maintained high standards with comprehensive testing coverage
+
+### Links
+- **[📱 Download on App Store](https://apps.apple.com/us/app/investment-calculators/id6689020719)**
+- **[🐙 View Source Code on GitHub](https://github.com/sahilsatralkar/InterestCalculatorApp)**
+- **[📖 Read Development Story](/ios%20development/swiftui/financial%20technology/from-financial-planning-to-app-store-building-investment-calculators/)**
+
+---
+
 ### Development Philosophy
 
 Each project in my portfolio reflects my commitment to:
@@ -56,7 +97,8 @@ Each project in my portfolio reflects my commitment to:
 - **User-Centric Design**: Every feature designed with the end user in mind
 - **Technical Excellence**: Implementing best practices and modern iOS technologies
 - **Community Contribution**: Open sourcing projects to give back to the developer community
+- **Practical Solutions**: Building apps that solve real-world problems and add genuine value
 
 ---
 
-*More projects coming soon! I'm always working on new ideas that combine technical innovation with meaningful user experiences.*
+*I'm always working on new ideas that combine technical innovation with meaningful user experiences. Stay tuned for more projects that demonstrate the power of iOS development in solving everyday challenges.*
