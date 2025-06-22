@@ -5,7 +5,7 @@ date: 2024-12-22
 categories: [iOS Development, SwiftUI, App Development]
 tags: [aquarium, ios-app, swiftui, core-data, indie-developer]
 header:
-  teaser: /assets/images/aquarium-life-header.jpg
+  teaser: /assets/images/aquarium-life-header.png
 ---
 
 ## Introducing Aquarium Life: My Journey from Concept to App Store
@@ -16,7 +16,7 @@ As an iOS developer and aquarium enthusiast, I'm excited to share the story behi
 
 Like many aquarium owners, I found myself struggling to keep track of multiple tanks, water parameters, feeding schedules, and care requirements for different species. Existing solutions were either too complex or lacked the specific features aquarium hobbyists actually needed. That's when I decided to build something better – an app that would make aquarium management both comprehensive and delightful.
 
-![Aquarium Life Main Interface](/assets/images/aquarium-life-main.jpg)
+![Aquarium Life Main Interface](/assets/images/aquarium-life-main.png)
 *The clean, tab-based interface I designed for intuitive navigation*
 
 ### Key Features I Built Into the App
