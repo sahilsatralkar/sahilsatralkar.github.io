@@ -7,7 +7,7 @@ author_profile: true
 
 ## About Me
 
-Hi, I'm **Sahil Satralkar**, a software developer with **12+ years** of total experience and **5+ years** specializing in iOS mobile development. Based in Pune, Maharashtra, I focus on building robust, user-centric iOS apps that solve real-world problems and deliver exceptional user experiences.
+Hi, I'm **Sahil Satralkar**, a software developer with **12+ years** of total experience and **5+ years** specializing in iOS mobile development. I focus on building robust, user-centric iOS apps that solve real-world problems and deliver exceptional user experiences.
 
 ### My Journey
 
