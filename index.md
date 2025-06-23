@@ -2,12 +2,6 @@
 layout: single
 title: "Welcome"
 author_profile: true
-excerpt: "iOS Developer with 5+ years experience creating beautiful, functional mobile applications using Swift and SwiftUI. Check out my published apps and iOS development portfolio."
-header:
-  overlay_color: "#5e616c"
-  overlay_filter: "0.5"
-seo:
-  type: "Person"
 ---
 
 # Hi, I'm Sahil Satralkar 👋
@@ -45,7 +39,7 @@ I craft native iOS applications using **Swift** and **SwiftUI**, emphasizing cle
 
 <div style="display: flex; gap: 30px; align-items: center; flex-wrap: wrap; margin: 30px 0;">
   <div style="text-align: center;">
-    <img src="/assets/images/aquarium-life-header.png" alt="Aquarium Life" width="80" height="80" style="border-radius: 18px; margin-bottom: 10px;">
+    <img src="/assets/images/aquarium-life-icon.png" alt="Aquarium Life" width="80" height="80" style="border-radius: 18px; margin-bottom: 10px;">
     <br><strong>Aquarium Life</strong>
     <br>
     <a href="https://apps.apple.com/us/app/aquarium-life/id1551311809" target="_blank">
