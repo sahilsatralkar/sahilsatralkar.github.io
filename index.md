@@ -4,7 +4,7 @@ title: "Welcome"
 author_profile: true
 ---
 
-# Hi, I'm Sahil Satralkar 👋
+# Hi, I'm Sahil 👋
 
 I'm an iOS developer specializing in Apple platforms, passionate about creating beautiful, functional mobile applications.
 
