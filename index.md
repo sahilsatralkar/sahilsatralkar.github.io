@@ -6,7 +6,7 @@ author_profile: true
 
 # Hi, I'm Sahil Satralkar 👋
 
-I'm an iOS developer passionate about creating beautiful, functional mobile applications.
+I'm an iOS developer specializing in Apple platforms, passionate about creating beautiful, functional mobile applications.
 
 Welcome to my digital space! With **5+ years** of specialized iOS development experience, I focus on building apps that solve real-world problems and deliver exceptional user experiences.
 
