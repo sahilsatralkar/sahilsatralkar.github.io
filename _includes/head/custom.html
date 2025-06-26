@@ -2,4 +2,87 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Sahil Satralkar",
+  "url": "{{ site.url }}",
+  "image": "{{ site.url }}/assets/images/bio-photo.jpg",
+  "jobTitle": "iOS Developer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Grid Dynamics"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Sangli",
+    "addressCountry": "India"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/sahil-satralkar-1a61b042/",
+    "https://github.com/sahilsatralkar/",
+    "https://x.com/sahilsatralkar",
+    "https://medium.com/@SahilSatralkar_18053"
+  ],
+  "knowsAbout": [
+    "Swift",
+    "SwiftUI",
+    "iOS Development",
+    "Mobile App Development",
+    "Xcode"
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "iOS Lead Essentials"
+    },
+    {
+      "@type": "EducationalOccupationalCredential", 
+      "name": "100 Days of Swift"
+    }
+  ]
+}
+</script>
+
+<!-- Website/Organization Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Sahil Satralkar - iOS Developer",
+  "url": "{{ site.url }}",
+  "description": "{{ site.description }}",
+  "founder": {
+    "@type": "Person",
+    "name": "Sahil Satralkar"
+  },
+  "serviceType": "iOS App Development",
+  "areaServed": "Worldwide",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "iOS Development Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Custom iOS App Development",
+          "description": "Native iOS app development using Swift and SwiftUI"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "itemOffered": {
+          "@type": "Service",
+          "name": "App Store Optimization",
+          "description": "App Store deployment and optimization services"
+        }
+      }
+    ]
+  }
+}
+</script>
+
 <!-- end custom head snippets -->
