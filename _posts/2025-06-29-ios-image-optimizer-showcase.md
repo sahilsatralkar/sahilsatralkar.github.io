@@ -5,8 +5,8 @@ date: 2025-06-28
 categories: [iOS Development, Swift, Developer Tools]
 tags: [ios-optimization, command-line-tool, swift-package, app-bundle, image-optimization, developer-productivity]
 header:
-  teaser: /assets/images/iOS-image-optimizer-banner.jpg
-  image: /assets/images/iOS-image-optimizer-banner.jpg
+  teaser: /assets/images/iOS-image-optimizer-banner.png
+  image: /assets/images/iOS-image-optimizer-banner.png
 ---
 
 ## iOS Image Optimizer: Streamlining App Bundle Management
