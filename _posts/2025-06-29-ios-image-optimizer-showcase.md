@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Building iOS Image Optimizer: A Developer's Tool for App Bundle Optimization"
-date: 2025-06-29
+date: 2025-06-28
 categories: [iOS Development, Swift, Developer Tools]
 tags: [ios-optimization, command-line-tool, swift-package, app-bundle, image-optimization, developer-productivity]
 header:
