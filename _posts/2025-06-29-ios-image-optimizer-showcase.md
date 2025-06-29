@@ -192,15 +192,6 @@ func validateColorProfiles(_ images: [ImageAsset]) -> [ColorProfileIssue] {
 4. **Multi-category validation** - Simultaneous analysis across PNG performance, color consistency, asset organization, and design quality
 5. **Actionable prioritization** - Ranking recommendations by potential impact on App Store approval and user experience
 
-### Real-World Results
-
-Testing across various iOS projects showed significant improvements:
-- **15-25% unused images** found on average with 800KB to 3MB savings
-- **Apple compliance scores** improved from 45-60 to 85-95 after addressing recommendations
-- **PNG interlacing issues** found in 30% of projects, causing performance degradation
-- **Missing color profiles** detected in 40% of images, affecting visual consistency
-- **10-second comprehensive analysis** vs 2+ hours manual Apple guideline verification
-
 ### Architecture Highlights
 
 **Modular validation system:**
