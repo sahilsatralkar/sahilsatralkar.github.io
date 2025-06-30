@@ -28,18 +28,25 @@ Existing solutions only addressed basic unused image detection, leaving develope
 ### What It Does
 
 **Comprehensive Image Analysis**  
-- **Unused Image Detection** - Find images that exist but are never referenced in code
+- **Enhanced Unused Image Detection** - Find images that exist but are never referenced in code, including advanced dynamic loading patterns and string interpolation
 - **Apple Compliance Validation** - Validate images against Apple's official guidelines
 - **PNG Interlacing Analysis** - Detect performance-impacting interlaced PNGs
 - **Color Profile Validation** - Ensure consistent colors across devices
 - **Asset Catalog Organization** - Validate proper scale variants (@1x, @2x, @3x)
 - **Design Quality Assessment** - Check touch targets and memory optimization
 
+**Quality Assurance & Reliability**
+- **154 Comprehensive Unit Tests** - Ensuring reliability and accuracy with 73.8% code coverage
+- **CI/CD Pipeline** - Automated testing on every Pull Request
+- **Cross-Platform Support** - Works on both Intel and Apple Silicon Macs
+- **Robust Error Handling** - Better handling of edge cases and malformed files
+
 **Advanced Usage Detection**
 - Swift: `UIImage(named:)`, `Image("name")`, SF Symbols
 - Objective-C: `[UIImage imageNamed:]` patterns
 - Interface Builder: Storyboards and XIB files
 - Asset Catalog cross-referencing
+- **Method 2 Enhanced Detection**: Advanced pattern matching for dynamic loading (`Image("Icons/\(variable)")`) and string interpolation
 
 **Apple Compliance Scoring**
 - **0-100 compliance score** based on Apple's Human Interface Guidelines
@@ -51,6 +58,7 @@ Existing solutions only addressed basic unused image detection, leaving develope
 - Detailed analysis by validation category
 - JSON export for CI/CD integration
 - Performance impact assessment
+- **Automated Testing Integration** - 154 unit tests ensure consistent and reliable results
 
 ### Sample Output
 
@@ -246,6 +254,18 @@ swift run iOSImageOptimizer /path/to/your/ios/project --json
 - **0-39**: Poor, significant issues requiring attention
 
 **GitHub Repository:** [iOS Image Optimizer Tool](https://github.com/sahilsatralkar/iOSImageOptimizerTool)
+
+### Latest v0.2 Release Highlights
+
+The tool has been significantly enhanced with production-ready features:
+
+- **Complete Test Suite**: 154 comprehensive unit tests with 73.8% code coverage ensuring reliability
+- **CI/CD Pipeline**: Automated testing on GitHub Actions for consistent quality
+- **Enhanced Detection**: Improved dynamic image loading detection with Method 2 pattern matching
+- **Cross-Platform**: Full support for both Intel and Apple Silicon Macs
+- **Robust Error Handling**: Better handling of edge cases and malformed project files
+
+These improvements make the tool more reliable for production use and CI/CD integration.
 
 The project follows Apple's official guidelines and provides actionable insights for App Store approval. Open source contributions welcome for expanding validation rules and improving accuracy.
 
