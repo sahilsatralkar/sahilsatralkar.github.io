@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Building iOS Image Optimizer: Apple-Compliant Image Analysis for iOS Apps"
+title: "Building iOS Image Optimizer: CLI Tool for Optimizing Images in iOS Apps"
 date: 2025-06-29
 categories: [iOS Development, Swift, Developer Tools]
 tags: [ios-optimization, command-line-tool, swift-package, app-bundle, image-optimization, apple-compliance, developer-productivity]
