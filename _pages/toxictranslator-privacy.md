@@ -35,14 +35,8 @@ ToxicTranslator is designed with privacy as a core principle. Our app processes 
 ## How ToxicTranslator Works
 
 ### On-Device Processing
-- All text analysis is performed locally on your device using Core ML models
-- Your messages are processed entirely within the app and never transmitted to external servers
+- All text analysis is performed locally on your device
 - No internet connection is required for the app's core functionality
-
-### Machine Learning Models
-- The app uses pre-trained machine learning models stored locally on your device
-- These models analyze text patterns without storing or transmitting any user data
-- All processing happens in real-time on your device
 
 ## App Store Analytics
 
@@ -61,10 +55,6 @@ ToxicTranslator does not integrate with any third-party services, analytics plat
 
 Since ToxicTranslator does not collect, store, or transmit any user data, there is no risk of your personal information being compromised. All processing occurs locally within the secure environment of your iOS device.
 
-## Children's Privacy
-
-Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13.
-
 ## Changes to This Privacy Policy
 
 We may update our Privacy Policy from time to time. Any changes will be posted at this URL: https://sahilsatralkar.com/toxictranslator-privacy/
@@ -80,4 +70,4 @@ If you have any questions about this Privacy Policy, please contact us at:
 
 ---
 
-*This privacy policy reflects our commitment to protecting your privacy. ToxicTranslator was built from the ground up with privacy in mind, ensuring your messages remain completely private and secure on your device.*
+*This privacy policy reflects our commitment to protecting your privacy. ToxicTranslator was built from the ground up with privacy in mind*
