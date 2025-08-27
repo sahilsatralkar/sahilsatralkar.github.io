@@ -36,6 +36,15 @@ Financial planning tools that put essential investment and loan calculations at 
 
 **[📱 Download on App Store](https://apps.apple.com/us/app/investment-calculators/id6689020719)** | **[🐙 GitHub Repository](https://github.com/sahilsatralkar/InterestCalculatorApp)**
 
+### 🧠 ToxicTranslator
+An AI-powered iOS app that detects passive-aggressive messages and translates them to reveal their actual meaning:
+- ML-powered detection with 99.8% accuracy using Create ML models
+- Context-aware analysis for workplace and personal communication
+- On-device processing ensuring complete privacy
+- Humorous translations and response suggestions
+
+**[📱 Download on App Store](https://apps.apple.com/us/app/toxictranslator/id6751160163)** | **[🐙 GitHub Repository](https://github.com/sahilsatralkar/ToxicTranslator)** | **[🔒 Privacy Policy](https://sahilsatralkar.com/toxictranslator-privacy/)**
+
 ## 🛠️ Technical Skills
 
 - **Languages:** Swift
