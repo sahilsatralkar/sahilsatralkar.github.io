@@ -16,29 +16,10 @@ Built with Swift 6 and SwiftUI, this fully open-source application offers five d
 
 The app's architecture showcases modern iOS development practices, including MVVM with @Observable, Swift 6 async/await, and the innovative Liquid Glass design system. As an open-source project, developers can explore, learn from, and contribute to the codebase. What sets Context Composer apart is its commitment to privacy – functioning entirely offline with zero network calls, data collection, or cloud processing. Test it yourself by enabling airplane mode; the app continues working flawlessly, proving its on-device AI processing.
 
+### Real-World Example
+
+Imagine you need to inform your team about overtime work this weekend. Your initial message: "We need to work overtime this weekend to meet the deadline." Using Context Composer with the **Empathetic** tone transforms this into: "I know this is short notice, and I appreciate everyone's dedication. We need some extra hours this weekend to ensure we deliver on time. Let's discuss how we can make this work for everyone and plan some well-deserved time off afterward." The same message through the **Direct** tone becomes: "Weekend overtime required to meet deadline. Please confirm availability." Each variation maintains your core message while adapting the delivery for different contexts and audiences.
+
 Available for iPhone 15 Pro and newer devices with Apple Intelligence enabled, this open-source initiative represents the future of transparent, privacy-conscious AI applications on mobile platforms.
 
 **Explore the source code:** [GitHub Repository](https://github.com/sahilsatralkar/ContextComposer)
-
----
-
-### Questions About This Blog Post
-
-Here are some questions you might have about Context Composer and this article:
-
-**1. What inspired you to create a privacy-focused AI text transformation app?**
-The increasing concern about data privacy in AI applications and Apple's introduction of on-device Foundation Models created the perfect opportunity to build something that offers AI capabilities without compromising user privacy.
-
-**2. How does the Foundation Models framework compare to other AI solutions?**
-Unlike cloud-based AI services, Foundation Models run entirely on-device, offering instant responses without internet connectivity while ensuring complete data privacy. The trade-off is the requirement for newer hardware with Apple Intelligence support.
-
-**3. What challenges did you face implementing on-device AI processing?**
-The main challenges included working with the beta iOS 26 APIs, managing token limits (4,096 tokens), and ensuring the app gracefully handles Foundation Models availability on different devices.
-
-**4. Why did you choose to make Context Composer open-source?**
-Open-sourcing allows other developers to learn from the implementation, contribute improvements, and verify the privacy claims. It also serves as a reference implementation for Apple's new Foundation Models framework.
-
-**5. What are your future plans for Context Composer?**
-Future updates may include additional tone options, custom prompt templates, conversation history management, and support for longer context windows as Apple improves the Foundation Models framework.
-
-*Feel free to explore the app's source code and contribute to its development on GitHub!*
