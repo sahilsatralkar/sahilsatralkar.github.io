@@ -15,8 +15,8 @@ By using ToxicTranslator, you accept these terms. These terms may be updated fro
 
 ## 2. Service Description
 
-ToxicTranslator is an entertainment and educational iOS app that displays pre-written passive-aggressive messages with humorous translations. The App:
-- Shows curated content for entertainment purposes only
+ToxicTranslator is an iOS app that displays pre-written passive-aggressive messages with humorous translations. The App:
+- Shows curated content only
 - Does not accept user-generated content or text input
 - Provides translations, alternatives, and suggested responses
 - Is not a substitute for professional communication advice
