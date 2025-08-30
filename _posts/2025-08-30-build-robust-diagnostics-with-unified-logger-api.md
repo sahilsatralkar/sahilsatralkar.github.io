@@ -4,9 +4,6 @@ title: "Build Robust Diagnostics with the Unified Logger API"
 date: 2025-08-30
 categories: [iOS Development]
 tags: [iOS, Swift, Logging, Debugging, Performance]
-header:
-  image: /assets/images/ios-logger-header.jpg
-  teaser: /assets/images/ios-logger-teaser.jpg
 ---
 
 Apple's unified logging system supplies every iOS developer with a production-grade telemetry pipeline that is **structured, privacy-aware, and fast**—far superior to print() or NSLog[1][2].
