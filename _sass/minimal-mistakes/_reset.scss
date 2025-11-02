@@ -11,15 +11,15 @@ html {
   font-size: $doc-font-size;
 
   @include breakpoint($medium) {
-    font-size: $doc-font-size-medium;
+    font-size: $doc-font-size; // Keep at 16px for medium screens (tablets/small desktops)
   }
 
   @include breakpoint($large) {
-    font-size: $doc-font-size-large;
+    font-size: $doc-font-size * 1.0625; // Reduced from 1.25 to 1.0625 (17px instead of 20px)
   }
 
   @include breakpoint($x-large) {
-    font-size: $doc-font-size-x-large;
+    font-size: $doc-font-size * 1.125; // Reduced from 1.375 to 1.125 (18px instead of 22px)
   }
 
   -webkit-text-size-adjust: 100%;

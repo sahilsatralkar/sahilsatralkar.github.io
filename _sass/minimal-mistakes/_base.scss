@@ -38,26 +38,56 @@ h6 {
 h1 {
   margin-top: 0;
   font-size: $h-size-1;
+
+  // Optimize h1 size for desktop
+  @include breakpoint($large) {
+    font-size: 1.4em; // Reduced from 1.563em for better proportion
+  }
 }
 
 h2 {
   font-size: $h-size-2;
+
+  // Optimize h2 size for desktop
+  @include breakpoint($large) {
+    font-size: 1.15em; // Reduced from 1.25em
+  }
 }
 
 h3 {
   font-size: $h-size-3;
+
+  // Optimize h3 size for desktop
+  @include breakpoint($large) {
+    font-size: 1.05em; // Reduced from 1.125em
+  }
 }
 
 h4 {
   font-size: $h-size-4;
+
+  // Optimize h4 size for desktop
+  @include breakpoint($large) {
+    font-size: 1em; // Reduced from 1.0625em
+  }
 }
 
 h5 {
   font-size: $h-size-5;
+
+  // Optimize h5 size for desktop
+  @include breakpoint($large) {
+    font-size: 0.98em; // Reduced from 1.03125em
+  }
 }
 
 h6 {
   font-size: $h-size-6;
+
+  // Optimize h6 size for desktop
+  @include breakpoint($large) {
+    font-size: 0.95em; // Slight reduction from 1em
+  }
 }
 
 small,

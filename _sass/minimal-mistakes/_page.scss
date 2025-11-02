@@ -76,11 +76,21 @@ body {
   & + .page__meta {
     margin-top: -0.5em;
   }
+
+  // Optimize page title for desktop
+  @include breakpoint($large) {
+    font-size: 1.75em; // Better proportions for desktop
+  }
 }
 
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
+
+  // Optimize lead text for desktop
+  @include breakpoint($large) {
+    font-size: 1.15em; // Reduced from 1.25em
+  }
 }
 
 .page__content {
@@ -110,6 +120,16 @@ body {
   li,
   dl {
     font-size: 1em;
+  }
+
+  // Optimize body text for desktop readability
+  @include breakpoint($large) {
+    p,
+    li,
+    dl {
+      font-size: 0.95em; // Slightly reduce text size on desktop
+      line-height: 1.6; // Improved line height for better readability
+    }
   }
 
   /* paragraph indents */
