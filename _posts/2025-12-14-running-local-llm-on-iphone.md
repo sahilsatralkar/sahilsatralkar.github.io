@@ -4,9 +4,6 @@ title: "How to Run Local LLM Models on Your iPhone: A Complete Guide"
 date: 2025-12-14
 categories: [iOS, AI]
 tags: [LLM, AI, iPhone, Machine Learning, On-Device AI]
-header:
-  image: /assets/images/llm-screen1.PNG
-  teaser: /assets/images/llm-screen1.PNG
 ---
 
 *Run powerful AI models directly on your iPhone — no internet, no cloud, complete privacy.*
@@ -87,7 +84,8 @@ For this guide, I used my personal iPhone 17 to run all the tests. Here are the 
 | Total Memory | 7.5 GB |
 | GPU | Apple A19 GPU (Metal) |
 
-![Device Information showing iPhone 17 specs in PocketPal AI](/assets/images/llm-screen1.PNG)
+<img src="/assets/images/llm-screen1.PNG" alt="Device Information showing iPhone 17 specs in PocketPal AI" width="75%">
+
 *PocketPal AI's benchmark screen showing iPhone 17 hardware specifications*
 
 ### Why the A19 Chip Has an Edge
@@ -125,7 +123,8 @@ Once installed, open the app and navigate to the **Models** section (tap the ham
 
 For this guide: **Qwen2.5-3B-Instruct (Q5_K_M)** — a 2.44GB model that offers an excellent balance between quality and performance.
 
-![Model download screen in PocketPal AI](/assets/images/llm-screen2.PNG)
+<img src="/assets/images/llm-screen2.PNG" alt="Model download screen in PocketPal AI" width="75%">
+
 *Downloading Qwen2.5-3B-Instruct model in PocketPal AI*
 
 **Important**: Keep the app open during download. iOS doesn't support background downloads for this type of content. The download typically takes about 7-8 minutes on a decent Wi-Fi connection.
@@ -150,7 +149,8 @@ Two test prompts with Qwen 2.5 3B, both run with airplane mode enabled:
 
 **Performance**: 67ms/token, **14.91 tokens/sec**, 2126ms TTFT
 
-![Moon phases essay response with airplane mode](/assets/images/llm-screen3.PNG)
+<img src="/assets/images/llm-screen3.PNG" alt="Moon phases essay response with airplane mode" width="75%">
+
 *Response about lunar phases — note the airplane mode icon*
 
 ### Test 2: Technical Explanation
@@ -159,7 +159,8 @@ Two test prompts with Qwen 2.5 3B, both run with airplane mode enabled:
 
 **Performance**: 72ms/token, **13.91 tokens/sec**, 520ms TTFT
 
-![Neural networks explanation with airplane mode](/assets/images/llm-screen4.PNG)
+<img src="/assets/images/llm-screen4.PNG" alt="Neural networks explanation with airplane mode" width="75%">
+
 *Technical explanation generated entirely on-device*
 
 ### Performance Analysis
