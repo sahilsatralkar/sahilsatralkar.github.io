@@ -197,4 +197,4 @@ The combination of Apple's A-series chips, 8GB RAM, and Metal-accelerated infere
 
 ---
 
-*Tested on iPhone 17 running iOS 26.2 with PocketPal AI v1.11.7 and Qwen2.5-3B-Instruct (Q5_K_M). Results will be similar on iPhone 15 Pro and later.*
+*Tested on iPhone 17 running iOS 26.2 with PocketPal AI v1.11.7 and Qwen2.5-3B-Instruct (Q5_K_M).*
