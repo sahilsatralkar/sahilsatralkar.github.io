@@ -84,7 +84,7 @@ For this guide, I used my personal iPhone 17 to run all the tests. Here are the 
 | Total Memory | 7.5 GB |
 | GPU | Apple A19 GPU (Metal) |
 
-<img src="/assets/images/llm-screen1.PNG" alt="Device Information showing iPhone 17 specs in PocketPal AI" width="75%">
+<img src="/assets/images/llm-screen1.PNG" alt="Device Information showing iPhone 17 specs in PocketPal AI" width="75%" style="border: 1px solid #ddd; border-radius: 4px;">
 
 *PocketPal AI's benchmark screen showing iPhone 17 hardware specifications*
 
@@ -123,7 +123,7 @@ Once installed, open the app and navigate to the **Models** section (tap the ham
 
 For this guide: **Qwen2.5-3B-Instruct (Q5_K_M)** — a 2.44GB model that offers an excellent balance between quality and performance.
 
-<img src="/assets/images/llm-screen2.PNG" alt="Model download screen in PocketPal AI" width="75%">
+<img src="/assets/images/llm-screen2.PNG" alt="Model download screen in PocketPal AI" width="75%" style="border: 1px solid #ddd; border-radius: 4px;">
 
 *Downloading Qwen2.5-3B-Instruct model in PocketPal AI*
 
@@ -149,7 +149,7 @@ Two test prompts with Qwen 2.5 3B, both run with airplane mode enabled:
 
 **Performance**: 67ms/token, **14.91 tokens/sec**, 2126ms TTFT
 
-<img src="/assets/images/llm-screen3.PNG" alt="Moon phases essay response with airplane mode" width="75%">
+<img src="/assets/images/llm-screen3.PNG" alt="Moon phases essay response with airplane mode" width="75%" style="border: 1px solid #ddd; border-radius: 4px;">
 
 *Response about lunar phases — note the airplane mode icon*
 
@@ -159,7 +159,7 @@ Two test prompts with Qwen 2.5 3B, both run with airplane mode enabled:
 
 **Performance**: 72ms/token, **13.91 tokens/sec**, 520ms TTFT
 
-<img src="/assets/images/llm-screen4.PNG" alt="Neural networks explanation with airplane mode" width="75%">
+<img src="/assets/images/llm-screen4.PNG" alt="Neural networks explanation with airplane mode" width="75%" style="border: 1px solid #ddd; border-radius: 4px;">
 
 *Technical explanation generated entirely on-device*
 
@@ -194,8 +194,6 @@ This is genuinely usable performance. It's not as fast as cloud-based services w
 Running local LLMs on your iPhone is genuinely practical. With PocketPal AI and Qwen 2.5 3B, you get a private, offline AI assistant that performs well for everyday tasks — and it works on any iPhone 15 Pro or later.
 
 The combination of Apple's A-series chips, 8GB RAM, and Metal-accelerated inference has made on-device AI a reality. iPhone 17 users get a slight edge with Neural Accelerators, but all compatible devices deliver usable performance. Whether you're concerned about privacy, want offline access, or enjoy tinkering with AI, the tools are here and they work.
-
-**Drop your questions in the comments below!**
 
 ---
 
