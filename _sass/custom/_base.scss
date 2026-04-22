@@ -1,0 +1,48 @@
+/*
+ * Base typography and global resets for the redesigned interface.
+ */
+
+html,
+body {
+  font-family: var(--font-body);
+  scroll-padding-top: 5.5rem;
+}
+
+body {
+  background: transparent;
+  color: var(--text-high);
+  line-height: 1.75;
+}
+
+:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--brand) 45%, #ffffff 55%);
+  outline-offset: 2px;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.014em;
+}
+
+.page__inner-wrap,
+.archive {
+  background: transparent;
+}
+
+.page__content,
+.archive__content {
+  margin-top: 0;
+}
+
+.author__avatar img,
+.author__avatar {
+  border-radius: 999px;
+}
+
+.initial-content {
+  position: relative;
+}
+
+.ui-shell :focus-visible {
+  border-radius: 10px;
+}
