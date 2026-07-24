@@ -6,6 +6,7 @@ description: "Read the Microscope app Terms of Use, including Apple App Store te
 permalink: /apps/microscope/terms
 author_profile: false
 analytics: false
+remove_heading_permalinks: true
 classes: [microscope-legal-page]
 canonical_url: https://sahilsatralkar.com/apps/microscope/terms
 ---

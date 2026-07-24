@@ -6,6 +6,7 @@ description: "Learn how the Microscope app handles camera access, captures, purc
 permalink: /apps/microscope/privacy
 author_profile: false
 analytics: false
+remove_heading_permalinks: true
 classes: [microscope-legal-page]
 canonical_url: https://sahilsatralkar.com/apps/microscope/privacy
 ---

@@ -26,3 +26,11 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+{% if page.remove_heading_permalinks %}
+  <script>
+    document.querySelectorAll(".page__content .header-link").forEach(function (anchor) {
+      anchor.remove();
+    });
+  </script>
+{% endif %}
