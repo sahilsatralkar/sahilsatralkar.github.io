@@ -8,6 +8,8 @@ canonical_url: https://sahilsatralkar.com/apps/microscope/terms
 
 **Effective date:** July 25, 2026
 
+Apple Standard EULA: [**https://www.apple.com/legal/internet-services/itunes/dev/stdeula/**](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
+
 These Terms of Use (“Terms”) apply to your use of the Microscope app (“the app”). By downloading or using the Microscope app, you agree to these Terms.
 
 ## Apple terms
@@ -87,6 +89,5 @@ For questions about these Terms, email [priya.satralkar8@gmail.com](mailto:priya
 
 ## Legal Documents
 
-- Apple Standard EULA: [**https://www.apple.com/legal/internet-services/itunes/dev/stdeula/**](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
 - [Microscope app Privacy Policy](https://sahilsatralkar.com/apps/microscope/privacy)
 - [Microscope app Support](https://sahilsatralkar.com/apps/microscope/support)
