@@ -87,5 +87,6 @@ For questions about these Terms, email [priya.satralkar8@gmail.com](mailto:priya
 
 ## Legal Documents
 
+- Apple Standard EULA: [**https://www.apple.com/legal/internet-services/itunes/dev/stdeula/**](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
 - [Microscope app Privacy Policy](https://sahilsatralkar.com/apps/microscope/privacy)
 - [Microscope app Support](https://sahilsatralkar.com/apps/microscope/support)
