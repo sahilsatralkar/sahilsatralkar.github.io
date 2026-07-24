@@ -1,8 +1,12 @@
 ---
 layout: page-custom
-title: "Microscope app Support"
+title: "Microscope Support"
+seo_title: "Microscope Support"
+description: "Get help with the Microscope app, including setup, permissions, captures, purchases, subscriptions, and refunds."
 permalink: /apps/microscope/support
 author_profile: false
+analytics: false
+classes: [microscope-legal-page]
 canonical_url: https://sahilsatralkar.com/apps/microscope/support
 ---
 
@@ -10,7 +14,7 @@ The Microscope app turns your iPhone into a camera for a compatible optical micr
 
 ## Contact
 
-For help, email [priya.satralkar8@gmail.com](mailto:priya.satralkar8@gmail.com).
+For help, email <!--email_off--><a href="mailto:priya.satralkar8@gmail.com">priya.satralkar8@gmail.com</a><!--/email_off-->.
 
 Please include:
 

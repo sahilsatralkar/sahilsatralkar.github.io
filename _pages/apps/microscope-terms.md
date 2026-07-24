@@ -1,8 +1,12 @@
 ---
 layout: page-custom
-title: "Microscope app Terms of Use"
+title: "Microscope Terms of Use"
+seo_title: "Microscope Terms of Use"
+description: "Read the Microscope app Terms of Use, including Apple App Store terms, purchases, acceptable use, privacy, and limitations."
 permalink: /apps/microscope/terms
 author_profile: false
+analytics: false
+classes: [microscope-legal-page]
 canonical_url: https://sahilsatralkar.com/apps/microscope/terms
 ---
 

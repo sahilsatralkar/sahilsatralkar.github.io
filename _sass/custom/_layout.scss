@@ -66,6 +66,14 @@
   padding-left: 1.25rem;
 }
 
+/* Keep long-form legal text readable without narrowing the surrounding card. */
+@media (min-width: 760px) {
+  .microscope-legal-page .ui-page > .page__inner-wrap {
+    max-width: 46rem;
+    margin-inline: auto;
+  }
+}
+
 @media (min-width: 760px) {
   .ui-page {
     padding: clamp(1.8rem, 3vw, 2.8rem);

@@ -1,8 +1,12 @@
 ---
 layout: page-custom
-title: "Microscope app Privacy Policy"
+title: "Microscope Privacy Policy"
+seo_title: "Microscope Privacy Policy"
+description: "Learn how the Microscope app handles camera access, captures, purchases, diagnostics, and support communications."
 permalink: /apps/microscope/privacy
 author_profile: false
+analytics: false
+classes: [microscope-legal-page]
 canonical_url: https://sahilsatralkar.com/apps/microscope/privacy
 ---
 
