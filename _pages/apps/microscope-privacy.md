@@ -1,6 +1,6 @@
 ---
 layout: page-custom
-title: "Microscope Privacy Policy"
+title: "Microscope app Privacy Policy"
 permalink: /apps/microscope/privacy
 author_profile: false
 canonical_url: https://sahilsatralkar.com/apps/microscope/privacy
@@ -8,17 +8,17 @@ canonical_url: https://sahilsatralkar.com/apps/microscope/privacy
 
 **Effective date:** July 25, 2026
 
-Microscope is designed to work without an account, advertising, analytics, or tracking. The app does not transmit your camera view, captures, settings, or usage activity to us. Information may reach us only when you choose to contact us or when Apple provides diagnostics under your iPhone analytics settings, as explained below.
+The Microscope app is designed to work without an account, advertising, analytics, or tracking. The app does not transmit your camera view, captures, settings, or usage activity to us. Information may reach us only when you choose to contact us or when Apple provides diagnostics under your iPhone analytics settings, as explained below.
 
 ## Information handled by the app
 
 ### Camera
 
-Microscope uses the rear camera to display and capture your microscope view. Camera frames are processed on your iPhone and are not uploaded to us.
+The Microscope app uses the rear camera to display and capture your microscope view. Camera frames are processed on your iPhone and are not uploaded to us.
 
 ### Photos
 
-When you choose **Save to Photos**, Microscope requests access to create or reuse a Photos album named **Microscope** and save your photo or video. Saved captures remain in your Photos library and under your control.
+When you choose **Save to Photos**, the Microscope app requests access to create or reuse a Photos album named **Microscope** and save your photo or video. Saved captures remain in your Photos library and under your control.
 
 ### Microphone
 
@@ -26,19 +26,19 @@ Microphone access is optional and is requested only if you enable audio for vide
 
 ### App settings and temporary captures
 
-Microscope stores onboarding progress, camera preferences, and app settings locally on your device. A capture may be stored temporarily in the app's protected local storage while it is being reviewed, saved, or recovered after an interruption. Temporary app copies are removed after the related workflow is completed or discarded.
+The Microscope app stores onboarding progress, camera preferences, and app settings locally on your device. A capture may be stored temporarily in the app's protected local storage while it is being reviewed, saved, or recovered after an interruption. Temporary app copies are removed after the related workflow is completed or discarded.
 
-Deleting Microscope removes its local settings and temporary app data. Captures already saved in Photos and purchase records held by Apple are not removed when you delete the app.
+Deleting the Microscope app removes its local settings and temporary app data. Captures already saved in Photos and purchase records held by Apple are not removed when you delete the app.
 
 ## Purchases
 
-In-app purchases and subscriptions are processed by Apple through the App Store. We do not receive your payment-card or Apple Account details. The app receives only the product and entitlement information needed to unlock Microscope Pro.
+In-app purchases and subscriptions are processed by Apple through the App Store. We do not receive your payment-card or Apple Account details. The app receives only the product and entitlement information needed to unlock Microscope app Pro.
 
 Apple handles this information under its [Privacy Policy](https://www.apple.com/legal/privacy/).
 
 ## Diagnostics
 
-Microscope does not include third-party analytics, advertising, or crash-reporting SDKs. If you choose to share analytics with app developers in your iPhone settings, Apple may make diagnostic information available to us through App Store Connect. We do not intentionally include camera frames, saved captures, or recording audio in diagnostic logs.
+The Microscope app does not include third-party analytics, advertising, or crash-reporting SDKs. If you choose to share analytics with app developers in your iPhone settings, Apple may make diagnostic information available to us through App Store Connect. We do not intentionally include camera frames, saved captures, or recording audio in diagnostic logs.
 
 ## When you contact us
 
@@ -48,7 +48,7 @@ Do not send microscope captures or other sensitive content unless it is necessar
 
 ## Network activity
 
-Microscope does not send your camera view, captures, settings, or usage activity to a developer-operated server. Network access may occur when:
+The Microscope app does not send your camera view, captures, settings, or usage activity to a developer-operated server. Network access may occur when:
 
 - Apple StoreKit loads products, verifies purchases, or restores entitlements; or
 - you choose to open an external link such as this policy or the support page.
@@ -79,5 +79,5 @@ For privacy questions, email [priya.satralkar8@gmail.com](mailto:priya.satralkar
 
 ## Legal Documents
 
-- [Microscope Support](https://sahilsatralkar.com/apps/microscope/support)
-- [Microscope Terms of Use](https://sahilsatralkar.com/apps/microscope/terms)
+- [Microscope app Support](https://sahilsatralkar.com/apps/microscope/support)
+- [Microscope app Terms of Use](https://sahilsatralkar.com/apps/microscope/terms)

@@ -1,6 +1,6 @@
 ---
 layout: page-custom
-title: "Microscope Terms of Use"
+title: "Microscope app Terms of Use"
 permalink: /apps/microscope/terms
 author_profile: false
 canonical_url: https://sahilsatralkar.com/apps/microscope/terms
@@ -8,37 +8,37 @@ canonical_url: https://sahilsatralkar.com/apps/microscope/terms
 
 **Effective date:** July 25, 2026
 
-These Terms of Use (“Terms”) apply to your use of the Microscope iOS app (“Microscope” or the “app”). By downloading or using Microscope, you agree to these Terms.
+These Terms of Use (“Terms”) apply to your use of the Microscope app (“the app”). By downloading or using the Microscope app, you agree to these Terms.
 
 ## Apple terms
 
-Microscope is licensed through Apple's App Store, not sold. Your use of the app is also governed by Apple's [Standard Licensed Application End User License Agreement (“Standard EULA”)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/), which is incorporated into these Terms by reference.
+The Microscope app is licensed through Apple's App Store, not sold. Your use of the app is also governed by Apple's [Standard Licensed Application End User License Agreement (“Standard EULA”)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/), which is incorporated into these Terms by reference.
 
 App Store purchases, subscriptions, billing, cancellation, and refunds are also subject to the [Apple Media Services Terms and Conditions](https://www.apple.com/legal/internet-services/itunes/).
 
 These Terms supplement the Standard EULA and do not replace it. If these Terms conflict with the Standard EULA, the Standard EULA controls to the extent required by Apple or applicable law.
 
-## What Microscope does
+## What the Microscope app does
 
-Microscope provides camera controls that help you align, view, photograph, and record content through a compatible optical microscope and iPhone eyepiece adapter.
+The Microscope app provides camera controls that help you align, view, photograph, and record content through a compatible optical microscope and iPhone eyepiece adapter.
 
 You are responsible for obtaining compatible equipment, mounting the iPhone securely, following the equipment manufacturer's instructions, and using the app safely.
 
 ## License and acceptable use
 
-Subject to these Terms and the Standard EULA, you may use Microscope for lawful personal, educational, or professional purposes.
+Subject to these Terms and the Standard EULA, you may use the Microscope app for lawful personal, educational, or professional purposes.
 
 You may not misuse the app, interfere with its operation, attempt to bypass purchase or entitlement controls, or use it in violation of applicable law or another person's rights.
 
 ## Your captures
 
-You retain your rights in the photos, videos, and audio you create with Microscope. You are responsible for ensuring that you have the right to capture, store, use, and share that content.
+You retain your rights in the photos, videos, and audio you create with the Microscope app. You are responsible for ensuring that you have the right to capture, store, use, and share that content.
 
-Microscope does not provide a cloud backup service. You are responsible for managing and backing up captures saved in Photos.
+The Microscope app does not provide a cloud backup service. You are responsible for managing and backing up captures saved in Photos.
 
-## Microscope Pro purchases
+## Microscope app Pro purchases
 
-Microscope may offer:
+The Microscope app may offer:
 
 - an automatically renewing subscription; and
 - a one-time lifetime purchase.
@@ -51,7 +51,7 @@ Apple processes payments, cancellations, and refund requests. We do not receive 
 
 ## No medical or safety-critical use
 
-Microscope is a general imaging and documentation tool. It is not a medical device, diagnostic system, calibrated measurement instrument, or substitute for professional judgment.
+The Microscope app is a general imaging and documentation tool. It is not a medical device, diagnostic system, calibrated measurement instrument, or substitute for professional judgment.
 
 Do not rely on the app for medical diagnosis, treatment, laboratory certification, public-safety decisions, or any use where an inaccurate, unavailable, delayed, or lost image could cause harm.
 
@@ -63,17 +63,17 @@ We may update, improve, change, suspend, or discontinue features where reasonabl
 
 ## Privacy
 
-Our [Privacy Policy](https://sahilsatralkar.com/apps/microscope/privacy) explains how the app handles information.
+Our [Microscope app Privacy Policy](https://sahilsatralkar.com/apps/microscope/privacy) explains how the app handles information.
 
 ## Disclaimer and limitation
 
-Microscope is provided on an “as is” and “as available” basis, subject to the warranties, remedies, limitations, and consumer rights in the Standard EULA and applicable law.
+The Microscope app is provided on an “as is” and “as available” basis, subject to the warranties, remedies, limitations, and consumer rights in the Standard EULA and applicable law.
 
 To the maximum extent permitted by applicable law, we are not responsible for indirect, incidental, special, or consequential loss arising from your use of the app, including lost captures, lost data, equipment damage, interruption, or inability to use the app. Nothing in these Terms excludes rights or liability that cannot legally be excluded.
 
 ## Ending use
 
-You may stop using Microscope at any time and delete the app. Subscription cancellation must be completed separately through your Apple Account.
+You may stop using the Microscope app at any time and delete the app. Subscription cancellation must be completed separately through your Apple Account.
 
 Your right to use the app may end if you materially violate these Terms or the Standard EULA.
 
@@ -87,5 +87,5 @@ For questions about these Terms, email [priya.satralkar8@gmail.com](mailto:priya
 
 ## Legal Documents
 
-- [Privacy Policy](https://sahilsatralkar.com/apps/microscope/privacy)
-- [Support](https://sahilsatralkar.com/apps/microscope/support)
+- [Microscope app Privacy Policy](https://sahilsatralkar.com/apps/microscope/privacy)
+- [Microscope app Support](https://sahilsatralkar.com/apps/microscope/support)
