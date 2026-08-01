@@ -6,9 +6,7 @@ permalink: /blog/building-cold-plunge-timer-log-with-ai/
 categories: [iOS Development, Indie Development, AI]
 tags: [SwiftUI, StoreKit 2, ASO, SEO, Codex, IndieAppKit, App Store]
 header:
-  teaser: /assets/images/cold-plunge-developer-journey-hero.png
-  image: /assets/images/cold-plunge-developer-journey-hero.png
-  image_description: "Cold Plunge Timer running on an iPhone beside the wave app icon and an abstract rising keyword-ranking line"
+  teaser: /assets/images/cold-plunge-app-icon.png
 ---
 
 In May 2026, I started building a focused iPhone app for cold plunges. I released it on the App Store on June 25. I am writing this retrospective just over a month later. In that short period, I migrated its purchase system, localized it, built a separate marketing website, published a growing library of search-focused articles, produced social assets, and watched several of my target keywords climb.
