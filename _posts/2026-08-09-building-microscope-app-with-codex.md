@@ -11,6 +11,8 @@ header:
 
 The idea for **Microscope App** began with market research in Astro. I was looking for an App Store category with enough demand to support organic discovery and a realistic level of competition.
 
+[Download Microscope App on the App Store](https://apps.apple.com/app/id6784896706)
+
 Astro's US data showed favourable demand and competition for microscope-focused searches. Broader magnifier terms had more demand, but they were also more competitive and less specific to the product I would eventually build.
 
 That evidence was favourable enough to continue investigating the niche. I registered the name **Microscope App** in App Store Connect, then moved into detailed competitor analysis.
@@ -22,14 +24,6 @@ Between those dates, the repository records competitor and keyword research, a p
 The Codex app was used during the build and verification work. It also ran tests against my connected physical iPhone 17, not only against Simulator fakes. The repository separately records Codex-assisted localization checks and the generated marketing compositions used for the App Store campaign.
 
 This is the documented journey from Astro research and App Store name registration to version 1.0 on the App Store.
-
-> Disclosure: The App Store marketing compositions shown in this article use generated representative hardware and specimen imagery. They demonstrate the product's intended viewing experience; they are not presented as scientific captures made by the app.
-
-The live product and project are here:
-
-- [Microscope App on the App Store](https://apps.apple.com/app/id6784896706)
-- [Microscope App source repository](https://github.com/sahilsatralkar/Microscope-App)
-- [Support and frequently asked questions](https://sahilsatralkar.com/apps/microscope/support)
 
 <!-- Publishing asset source: screenshots/final/English/01-turn-your-microscope-into-a-camera.png -->
 <img src="/assets/images/microscope-app-01-hero.jpg" alt="A physical microscope with an iPhone mounted over its eyepiece and Microscope App displaying a specimen" width="62%" style="display:block; margin:1.75rem auto 0.75rem; border-radius:18px;" />
@@ -110,15 +104,39 @@ Privacy became another constraint: no ads, no account, no analytics SDK, no trac
 
 *The released viewer stays focused on the microscope image, with capture controls and alignment tools kept around the edge.*
 
-## The first product problem was setup, not capture
+## Onboarding had to teach a physical workflow
 
 A conventional camera app can assume that the user points the phone at a subject. Microscope App cannot. The user must own an adapter, mount the iPhone, identify the rear 1× Main camera, position that camera over the eyepiece, grant permission, align the circular image, and confirm that the setup works.
 
-The final onboarding flow uses five milestones: Prepare, Explore, Connect, Capture, and Review.
+That made setup the first product problem. The onboarding specification set two goals: demonstrate real utility before monetization, and clearly distinguish the temporary access to Pro controls during setup from the permanent Free experience.
 
-It asks the user to prepare the microscope and adapter, records the intended use cases, provides device-aware physical positioning guidance, explains privacy and camera access, opens an alignment workspace, and lets the user make a trial photo or silent video. The user then reviews the unaltered capture and decides whether to save it or adjust the alignment.
+### Start with confidence, not configuration
 
-Permission timing was designed around intent. The app may inspect camera capability when the user enters setup, but it does not prompt automatically. Camera access is requested only after the user chooses **Start Live View**. Photos access is requested later, only after the user accepts a valid capture and chooses to save it. Microphone access is an optional main-viewer preference and is never requested during onboarding.
+The welcome screen was designed around calm curiosity and confidence. It shows the complete physical setup—microscope, adapter, and iPhone—so the product and its hardware requirement are immediately understandable. It avoids technical detail, urgency, and paywall pressure. Progress begins only after the user chooses **Set Up My Microscope**.
+
+The next screen makes the equipment requirement explicit, followed by a use-case screen where the user can select why they plan to use the app. The aim was to establish relevance before asking for access to the camera.
+
+### Make each milestone correspond to a real outcome
+
+The final flow uses five milestones rather than a collection of instructional pages:
+
+1. **Prepare:** confirm that the microscope and compatible iPhone eyepiece adapter are ready.
+2. **Explore:** select one or more relevant use cases.
+3. **Connect:** learn how to position the rear 1× Main camera and grant Camera access.
+4. **Capture:** align the microscope view and create a trial photo or silent video.
+5. **Review:** inspect the unaltered result, save it, or return to adjust the alignment.
+
+The Connect step combines mounting guidance, privacy information, camera discovery, and permission into one surface. Where the iPhone hardware layout is known, the app gives device-aware positioning guidance. For an unknown layout, it falls back to Live View instead of guessing.
+
+Permission timing follows user intent. The app may inspect camera capability when setup opens, but it does not prompt automatically. Camera access is requested only after **Start Live View** is tapped. Photos access is requested later, only after the user accepts a valid capture and chooses **Save to Photos**. Onboarding video is silent, so the flow never asks for Microphone access.
+
+### Let the user experience the product before the paywall
+
+The Capture milestone uses the same essential workspace and controls as the main viewer. During onboarding, every supported adjustment is temporarily available without locks or upgrade prompts. This lets the user align a real microscope view, test the controls, and produce an actual result before seeing the purchase options.
+
+Review and Save remains one continuous surface. The capture stays visible while it is reviewed and saved. **Adjust Alignment** deletes the pending sample and returns to the camera workspace; **Save to Photos** requests access only at that moment. If saving fails, the capture is retained so the user can recover without repeating the setup.
+
+Only after those five milestones does the paywall appear. It is deliberately outside the progress sequence rather than presented as a sixth onboarding step. The result is a flow built around completing the microscope workflow first and discussing Free versus Pro afterward.
 
 ## The Codex app worked from explicit repository constraints
 
@@ -204,6 +222,16 @@ screenshots/final/English/06-show-every-detail.png
 *Representative App Store marketing compositions showing three intended workflows: electronics inspection, gems and collectibles, and detailed specimen viewing.*
 
 The artwork and captions were then localized into the eight launch languages. Metadata followed the same evidence-based positioning. The name remained **Microscope App**, the subtitle became **Camera for Photo & Video**, and keyword fields prioritized the microscope-adapter niche instead of using every available character for broad traffic.
+
+## Apple provided another set of marketing assets after launch
+
+Apple's [App Store Marketing Tools](https://toolbox.marketingtools.apple.com/en-us/app-store/us) can generate official links and badges, promotional assets for social channels, and QR codes that lead directly to an App Store listing.
+
+After Microscope App was available, I used the tool to create a 1200 × 628 link card. Apple combined the app icon and name with an App Store download badge inside a ready-to-share launch composition. It gave me a useful promotional asset without having to recreate Apple's badge or App Store branding manually.
+
+<img src="/assets/images/microscope-app-link-card-preview.png" alt="Apple-generated Microscope App link card with the app icon, launch message, and Download on the App Store badge" width="100%" style="display:block; margin:1.5rem auto 0.75rem; border-radius:14px;" />
+
+*A link card generated with Apple's App Store Marketing Tools for sharing the Microscope App launch.*
 
 ## Shipping meant finishing the unglamorous work
 
