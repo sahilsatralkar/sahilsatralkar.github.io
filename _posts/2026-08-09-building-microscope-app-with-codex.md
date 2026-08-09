@@ -17,7 +17,7 @@ I was looking for an App Store category with enough demand to support organic di
 
 The competitor analysis was documented on June 30, 2026. Just over five weeks later, on August 6, version 1.0 build 5 was available on the App Store.
 
-This article follows the same sequence as the project: discover the opportunity, validate the problem, define the product and business model, design the onboarding, build the native app, test it on Simulator and physical hardware, prepare the App Store release, and launch.
+This article follows the same sequence as the project: discover the opportunity, validate the problem, define the product and business model, design the onboarding, build the native app and its icon, test on Simulator and physical hardware, prepare the App Store release, and launch.
 
 <!-- Publishing asset source: screenshots/final/English/01-turn-your-microscope-into-a-camera.png -->
 <img src="/assets/images/microscope-app-01-hero.jpg" alt="A physical microscope with an iPhone mounted over its eyepiece and Microscope App displaying a specimen" width="62%" style="display:block; margin:1.75rem auto 0.75rem; border-radius:18px;" />
@@ -129,7 +129,25 @@ The Codex app assisted with implementation and verification against the reposito
 
 *Photo and video share one viewer, while the format label reflects the capture profile prepared on the current device.*
 
-## 6. Test in layers, then move to physical hardware
+## 6. Design the app icon with Sketch and Icon Composer
+
+The app icon followed its own design and implementation workflow. I began in Sketch with a microscope-lens composition containing a stylized amoeba, creating a visual connection between the app's purpose and the specimens someone might view through it.
+
+I used Sketch through its MCP integration with the Codex app. This allowed Codex to inspect and help refine the design while preserving an editable Sketch document with named groups and vector ShapePath layers. The iterations focused on the amoeba contour, lens depth, glass highlights, surrounding contrast, and colour balance.
+
+Each revision was exported at 1024 × 1024 and checked again at 512, 256, 128, and 64 pixels. Details that worked in the full-size artwork could disappear or become crowded at the sizes people would actually see. The production artwork also remained square, without rounded corners baked into the image, so iOS could apply the correct icon mask.
+
+Once the visual direction was finalized, I separated the artwork into three transparent layers:
+
+1. The base microscope lens.
+2. The amoeba body.
+3. The nucleus and smaller details.
+
+I imported those layers into Apple's Icon Composer, where they became the production layered app icon. Icon Composer provided the final depth, glass, translucency, shadow, and appearance previews used by the system.
+
+The resulting `AppIcon.icon` package became the production source connected to the Xcode project. Flattened exports were still required for the launch screen and paywall, while the App Store and Home Screen icon came from the layered Icon Composer package.
+
+## 7. Test in layers, then move to physical hardware
 
 The test strategy followed the architecture.
 
@@ -145,7 +163,7 @@ The production build added another layer. A local Release archive verified the r
 
 One limitation was recorded rather than hidden. The command-line StoreKit Test environment could emit an Xcode internal error and block on purchase UI. The interrupted runner was not counted as passing. The affected purchase and restore flows were verified through Xcode and TestFlight sandbox instead.
 
-## 7. Harden accessibility and localization before release
+## 8. Harden accessibility and localization before release
 
 Accessibility testing changed the design rather than merely approving it.
 
@@ -159,7 +177,7 @@ The release process verified 326 localized entries, checked placeholder parity, 
 
 The launch translations did not receive complete native linguistic review. That limitation remains documented rather than presented as solved.
 
-## 8. Prepare the App Store listing and release candidate
+## 9. Prepare the App Store listing and release candidate
 
 The App Store screenshots continued the same positioning established during research. The first image shows the complete microscope, adapter, and iPhone setup. The remaining images move through the product and its use cases:
 
@@ -191,7 +209,7 @@ The final release work included live StoreKit product validation, Monthly and Li
 
 Version 1.0 build 5 completed that path. The app waited nine days before its App Store Connect status changed to **In Review**. Once the review began, Apple approved it in about one hour without requesting clarification. The app became publicly available on August 6, 2026.
 
-## 9. Continue launch marketing with Apple's tools
+## 10. Continue launch marketing with Apple's tools
 
 After the listing was live, Apple's [App Store Marketing Tools](https://toolbox.marketingtools.apple.com/en-us/app-store/us) provided links and badges, promotional assets for social channels, and QR codes leading directly to the App Store.
 
