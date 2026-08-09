@@ -81,7 +81,29 @@ Privacy was fixed at the same stage: no ads, no account, no analytics SDK, no tr
 
 Writing these decisions down gave the implementation a source of truth. I used the Codex app throughout the project, but its changes were evaluated against the PRD, onboarding specifications, design decisions, metadata, localization rules, and test evidence in the repository.
 
-## 4. Design onboarding around the physical setup
+## 4. Design the app icon with Sketch and Icon Composer
+
+The app icon followed its own design and implementation workflow. I began in Sketch with a microscope-lens composition containing a stylized amoeba, creating a visual connection between the app's purpose and the specimens someone might view through it.
+
+I used Sketch through its MCP integration with the Codex app. This allowed Codex to inspect and help refine the design while preserving an editable Sketch document with named groups and vector ShapePath layers. The iterations focused on the amoeba contour, lens depth, glass highlights, surrounding contrast, and colour balance.
+
+Each revision was exported at 1024 × 1024 and checked again at 512, 256, 128, and 64 pixels. Details that worked in the full-size artwork could disappear or become crowded at the sizes people would actually see. The production artwork also remained square, without rounded corners baked into the image, so iOS could apply the correct icon mask.
+
+Once the visual direction was finalized, I separated the artwork into three transparent layers:
+
+1. The base microscope lens.
+2. The amoeba body.
+3. The nucleus and smaller details.
+
+I imported those layers into Apple's Icon Composer, where they became the production layered app icon. Icon Composer provided the final depth, glass, translucency, shadow, and appearance previews used by the system.
+
+The resulting `AppIcon.icon` package became the production source connected to the Xcode project. Flattened exports were still required for the launch screen and paywall, while the App Store and Home Screen icon came from the layered Icon Composer package.
+
+<img src="/assets/images/microscope-app-icon.png" alt="Microscope App icon showing a green amoeba inside a glass microscope lens" width="160" height="160" style="display:block; margin:1.5rem auto 0.75rem;" />
+
+*A small flattened preview of the finished icon. The production app icon uses the layered Icon Composer package.*
+
+## 5. Design onboarding around the physical setup
 
 A conventional camera app can assume the user will point the phone at a subject. Microscope App cannot. The user needs a compatible adapter, must position the rear 1× Main camera over the eyepiece, grant access, align the circular microscope image, and verify that the setup works.
 
@@ -108,7 +130,7 @@ During Capture, every supported adjustment is temporarily available without lock
 
 *The released viewer keeps attention on the microscope image, with alignment, adjustment, and capture controls around its edges.*
 
-## 5. Build the native iOS app
+## 6. Build the native iOS app
 
 With the product and onboarding specified, implementation could proceed in layers.
 
@@ -128,24 +150,6 @@ The Codex app assisted with implementation and verification against the reposito
 <img src="/assets/images/microscope-app-03-capture.jpg" alt="Microscope App configured for video recording with a specimen visible through the microscope" width="62%" style="display:block; margin:1.5rem auto 0.75rem; border-radius:18px;" />
 
 *Photo and video share one viewer, while the format label reflects the capture profile prepared on the current device.*
-
-## 6. Design the app icon with Sketch and Icon Composer
-
-The app icon followed its own design and implementation workflow. I began in Sketch with a microscope-lens composition containing a stylized amoeba, creating a visual connection between the app's purpose and the specimens someone might view through it.
-
-I used Sketch through its MCP integration with the Codex app. This allowed Codex to inspect and help refine the design while preserving an editable Sketch document with named groups and vector ShapePath layers. The iterations focused on the amoeba contour, lens depth, glass highlights, surrounding contrast, and colour balance.
-
-Each revision was exported at 1024 × 1024 and checked again at 512, 256, 128, and 64 pixels. Details that worked in the full-size artwork could disappear or become crowded at the sizes people would actually see. The production artwork also remained square, without rounded corners baked into the image, so iOS could apply the correct icon mask.
-
-Once the visual direction was finalized, I separated the artwork into three transparent layers:
-
-1. The base microscope lens.
-2. The amoeba body.
-3. The nucleus and smaller details.
-
-I imported those layers into Apple's Icon Composer, where they became the production layered app icon. Icon Composer provided the final depth, glass, translucency, shadow, and appearance previews used by the system.
-
-The resulting `AppIcon.icon` package became the production source connected to the Xcode project. Flattened exports were still required for the launch screen and paywall, while the App Store and Home Screen icon came from the layered Icon Composer package.
 
 ## 7. Test in layers, then move to physical hardware
 
