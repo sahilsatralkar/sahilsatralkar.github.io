@@ -6,7 +6,7 @@ permalink: /blog/building-microscope-app-with-codex/
 categories: [iOS Development, Indie Development, AI]
 tags: [SwiftUI, AVFoundation, StoreKit 2, ASO, Codex, IndieAppKit, App Store]
 header:
-  teaser: /assets/images/microscope-app-01-hero.jpg
+  teaser: /assets/images/microscope-app-device-amoeba.png
 ---
 
 The idea for **Microscope App** did not begin in Xcode. It began with market research in Astro.
@@ -19,10 +19,10 @@ The competitor analysis was documented on June 30, 2026. Just over five weeks la
 
 This article follows the same sequence as the project: discover the opportunity, validate the problem, define the product and business model, design the onboarding, build the native app and its icon, test on Simulator and physical hardware, prepare the App Store release, and launch.
 
-<!-- Publishing asset source: screenshots/final/English/01-turn-your-microscope-into-a-camera.png -->
-<img src="/assets/images/microscope-app-01-hero.jpg" alt="A physical microscope with an iPhone mounted over its eyepiece and Microscope App displaying a specimen" width="62%" style="display:block; margin:1.75rem auto 0.75rem; border-radius:18px;" />
+<!-- Publishing asset source: screenshots/device-mockups/00-hero-amoeba-realistic.png -->
+<img src="/assets/images/microscope-app-device-amoeba.png" alt="Microscope App viewer showing an amoeba inside an iPhone frame" width="34%" style="display:block; margin:1.75rem auto 0.75rem;" />
 
-*The launch hero makes the product requirement clear: Microscope App works with a physical microscope and a compatible iPhone eyepiece adapter.*
+*The app's main viewer, shown without the App Store headline or campaign background.*
 
 ## 1. Find an opportunity through App Store research
 
@@ -125,8 +125,8 @@ Permissions are requested only when they become necessary. Camera access appears
 
 During Capture, every supported adjustment is temporarily available without locks or upgrade prompts. Review and Save keeps the capture visible while the user decides whether to save it or return to alignment. Only after the five milestones does the paywall appear. It is outside the progress sequence because purchasing is not another setup task.
 
-<!-- Publishing asset source: screenshots/final/English/02-view-through-your-microscope.png -->
-<img src="/assets/images/microscope-app-02-live-view.jpg" alt="Microscope App live viewer showing a botanical cross-section through an iPhone microscope view" width="62%" style="display:block; margin:1.5rem auto 0.75rem; border-radius:18px;" />
+<!-- Publishing asset source: screenshots/device-mockups/01-view-through-your-microscope.png -->
+<img src="/assets/images/microscope-app-device-live-view.png" alt="Microscope App live viewer showing a botanical cross-section inside an iPhone frame" width="34%" style="display:block; margin:1.5rem auto 0.75rem;" />
 
 *The released viewer keeps attention on the microscope image, with alignment, adjustment, and capture controls around its edges.*
 
@@ -146,8 +146,8 @@ Capture work is transaction-scoped. Video recording begins only after AVFoundati
 
 The Codex app assisted with implementation and verification against the repository constraints. That was especially useful for work crossing several layers, such as keeping camera lifecycle behavior, onboarding transitions, localization, tests, privacy claims, and App Store metadata synchronized.
 
-<!-- Publishing asset source: screenshots/final/English/03-capture-photos-and-video.png -->
-<img src="/assets/images/microscope-app-03-capture.jpg" alt="Microscope App configured for video recording with a specimen visible through the microscope" width="62%" style="display:block; margin:1.5rem auto 0.75rem; border-radius:18px;" />
+<!-- Publishing asset source: screenshots/device-mockups/02-capture-photos-and-video.png -->
+<img src="/assets/images/microscope-app-device-video.png" alt="Microscope App configured for video recording inside an iPhone frame" width="34%" style="display:block; margin:1.5rem auto 0.75rem;" />
 
 *Photo and video share one viewer, while the format label reflects the capture profile prepared on the current device.*
 
@@ -195,17 +195,17 @@ The App Store screenshots continued the same positioning established during rese
 The campaign uses generated representative hardware and specimen compositions. The product UI inside the device reflects the released app, while the captions avoid medical, measurement, and phone-as-microscope claims. The artwork and copy were localized across the eight launch languages.
 
 <!-- Publishing assets:
-screenshots/final/English/04-inspect-electronics-up-close.png
-screenshots/final/English/05-examine-gems-and-collectibles.png
-screenshots/final/English/06-show-every-detail.png
+screenshots/device-mockups/03-inspect-electronics-up-close.png
+screenshots/device-mockups/04-examine-gems-and-collectibles-verified.png
+screenshots/device-mockups/05-demonstrate-every-detail.png
 -->
-<div style="display:flex; gap:0.75rem; align-items:flex-start; margin:1.5rem 0 0.75rem;">
-  <img src="/assets/images/microscope-app-04-electronics.jpg" alt="Microscope App App Store artwork demonstrating electronics inspection" width="32%" style="border-radius:12px;" />
-  <img src="/assets/images/microscope-app-05-gems.jpg" alt="Microscope App App Store artwork demonstrating gemstone and collectible examination" width="32%" style="border-radius:12px;" />
-  <img src="/assets/images/microscope-app-06-detail.jpg" alt="Microscope App App Store artwork demonstrating detailed specimen viewing" width="32%" style="border-radius:12px;" />
+<div style="display:flex; gap:0.75rem; align-items:flex-start; justify-content:center; margin:1.5rem 0 0.75rem;">
+  <img src="/assets/images/microscope-app-device-electronics.png" alt="Microscope App electronics inspection view inside an iPhone frame" width="30%" />
+  <img src="/assets/images/microscope-app-device-gems.png" alt="Microscope App gemstone examination view inside an iPhone frame" width="30%" />
+  <img src="/assets/images/microscope-app-device-detail.png" alt="Microscope App detailed specimen view inside an iPhone frame" width="30%" />
 </div>
 
-*Three of the localized App Store compositions, showing electronics, gems and collectibles, and detailed specimen viewing.*
+*The underlying iPhone mockups for electronics, gems and collectibles, and detailed specimen viewing, shown without campaign backgrounds or copy.*
 
 Metadata followed the same evidence-based direction. The name remained **Microscope App**, the subtitle became **Camera for Photo & Video**, and keyword fields prioritized the microscope-adapter niche rather than broad magnifier traffic.
 
