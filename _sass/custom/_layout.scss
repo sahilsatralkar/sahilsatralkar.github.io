@@ -67,6 +67,10 @@
 }
 
 /* Keep long-form legal text readable without narrowing the surrounding card. */
+.legal-page .page__content a {
+  overflow-wrap: anywhere;
+}
+
 @media (min-width: 760px) {
   .microscope-legal-page .ui-page > .page__inner-wrap,
   .legal-page .ui-page > .page__inner-wrap {
