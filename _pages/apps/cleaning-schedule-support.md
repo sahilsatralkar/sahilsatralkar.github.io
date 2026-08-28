@@ -9,6 +9,7 @@ analytics: false
 remove_heading_permalinks: true
 classes: [legal-page]
 canonical_url: https://sahilsatralkar.com/apps/cleaning-schedule/support
+locale: en-GB
 ---
 
 Cleaning Schedule helps one household plan, assign, and complete one-time and repeating cleaning tasks.

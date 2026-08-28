@@ -9,6 +9,7 @@ analytics: false
 remove_heading_permalinks: true
 classes: [legal-page]
 canonical_url: https://sahilsatralkar.com/apps/cleaning-schedule/terms
+locale: en-GB
 ---
 
 **Effective date:** 28 August 2026
