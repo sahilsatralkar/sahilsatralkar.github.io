@@ -68,8 +68,9 @@
 
 /* Keep long-form legal text readable without narrowing the surrounding card. */
 @media (min-width: 760px) {
-  .microscope-legal-page .ui-page > .page__inner-wrap {
-    max-width: 46rem;
+  .microscope-legal-page .ui-page > .page__inner-wrap,
+  .legal-page .ui-page > .page__inner-wrap {
+    max-width: 42rem;
     margin-inline: auto;
   }
 }

@@ -29,8 +29,10 @@
 
 {% if page.remove_heading_permalinks %}
   <script>
-    document.querySelectorAll(".page__content .header-link").forEach(function (anchor) {
-      anchor.remove();
+    window.addEventListener("load", function () {
+      document.querySelectorAll(".page__content .header-link").forEach(function (anchor) {
+        anchor.remove();
+      });
     });
   </script>
 {% endif %}
