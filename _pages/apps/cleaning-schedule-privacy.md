@@ -12,9 +12,11 @@ canonical_url: https://sahilsatralkar.com/apps/cleaning-schedule/privacy
 locale: en-GB
 ---
 
-**Effective date:** 28 August 2026
+**Effective date:** 11 September 2026
 
 This Privacy Policy explains how the Cleaning Schedule app handles household information, purchases, notifications, diagnostics, and support communications.
+
+Cleaning Schedule is developed and operated by Priya Satralkar, who is responsible for the information handling described in this policy. References to "we", "us", and "our" mean Priya Satralkar.
 
 ## Overview
 
@@ -26,7 +28,7 @@ Depending on how you use the app, household information is stored:
 - in your private iCloud database for synchronization between your devices; or
 - in an Apple CloudKit share when you choose household collaboration.
 
-Cleaning Schedule uses RevenueCat to provide subscription products and determine Premium access.
+Cleaning Schedule uses RevenueCat to provide subscription products and determine Pro access.
 
 The app does not contain advertising, cross-app tracking, or a custom product-usage analytics service.
 
@@ -93,13 +95,13 @@ You control whom you invite. A household owner can remove participants or delete
 
 App Store purchases and subscriptions are processed by Apple. We do not receive your payment-card details or Apple Account password.
 
-Cleaning Schedule uses RevenueCat to load subscription products, process purchase results, and determine Premium entitlement.
+Cleaning Schedule uses RevenueCat to load subscription products, process purchase results, and determine Pro access.
 
-Cleaning Schedule allows RevenueCat to generate a random anonymous App User ID. The app displays this value as a **Purchase Support ID** for purchase and restoration troubleshooting.
+Cleaning Schedule allows RevenueCat to generate a random anonymous App User ID internally. The app does not display this identifier. It links purchase and entitlement information within RevenueCat; using an anonymous identifier does not mean that no data is collected.
 
 RevenueCat may receive:
 
-- the anonymous Purchase Support ID;
+- the anonymous App User ID;
 - product and offering information;
 - App Store purchase and transaction information;
 - subscription and entitlement status; and
@@ -118,7 +120,9 @@ Cleaning Schedule does not send RevenueCat:
 - contact lists; or
 - custom product-usage events.
 
-RevenueCat integrations, advertising destinations, webhooks, and scheduled exports are not enabled for this app unless separately reviewed and disclosed.
+Apple App Store Server Notifications are configured to send purchase and subscription updates to RevenueCat. These incoming notifications are separate from outbound integrations, webhooks, or exports that send information from RevenueCat to other destinations.
+
+As of the effective date, no RevenueCat outbound integrations are active for Cleaning Schedule, including advertising destinations, webhooks, and scheduled data exports. This does not disable RevenueCat's own subscription processing or purchase-derived metrics described below.
 
 RevenueCat handles information under its [Privacy Policy](https://www.revenuecat.com/privacy-policy).
 
@@ -128,13 +132,13 @@ Apple handles App Store and purchase information under its [App Store & Privacy 
 
 Eligible Cleaning Schedule subscriptions may support Apple Family Sharing.
 
-Apple determines Family Sharing membership, purchase sharing, and subscription eligibility. Cleaning Schedule receives only the purchase and entitlement evidence needed to determine whether Premium access is active.
+Apple determines Family Sharing membership, purchase sharing, and subscription eligibility. Cleaning Schedule receives only the purchase and entitlement evidence needed to determine whether Pro access is active.
 
 Apple Family Sharing and Cleaning Schedule household sharing are separate. Family Sharing does not automatically disclose household content, and a Cleaning Schedule household invitation does not itself provide subscription access.
 
 ## Notifications
 
-Cleaning Schedule uses Apple local notifications for due reminders and assignment notices when you allow notification access.
+Cleaning Schedule uses Apple local notifications for due reminders when you allow notification access.
 
 Notification content is generated from household task information available on the device. Requests are scheduled with iOS and are not sent through a developer-operated push-notification server.
 
@@ -162,8 +166,6 @@ The app does not request App Tracking Transparency permission, access IDFA, or p
 
 If you email us, we receive the email address, message, and attachments that you choose to provide.
 
-For purchase support, you may choose to include the anonymous Purchase Support ID displayed in the app.
-
 We use support information only to:
 
 - respond to your request;
@@ -185,7 +187,7 @@ Information handled by Cleaning Schedule is used to:
 - provide household collaboration you request;
 - calculate schedules, occurrences, history, and progress;
 - schedule permitted reminders;
-- verify Free or Premium access;
+- verify Free or Pro access;
 - restore eligible purchases;
 - diagnose aggregate reliability problems; and
 - respond to support requests.
@@ -196,9 +198,9 @@ We do not sell household information or use it for advertising.
 
 Local information remains on the device until it is changed, deleted through an applicable app flow, or removed with the app.
 
-Cloud-backed household information remains in iCloud until it is deleted, a share ends, participation ends, or Apple applies its own retention rules.
+Household information stored in iCloud is subject to Apple's retention rules. Leaving a household or ending a participant's access does not delete the owner's household records. Confirmed owner deletion is a separate action, described below.
 
-Completion and cancellation history is intentionally retained as part of the household graph until the household is deleted.
+Completion and cancellation history is intentionally retained as part of the household data until the household is deleted, including after a member leaves.
 
 Apple and RevenueCat retain purchase and service information according to their respective policies and legal obligations.
 
@@ -206,13 +208,23 @@ Support correspondence is retained only as long as reasonably necessary for supp
 
 ## Deleting household information
 
-A household owner can use **Delete Household** in the app. For a cloud-backed household, deletion may remain pending until the app receives confirmation from iCloud.
+A household owner can use **Delete household** in the app. For a cloud-backed household, deletion may remain pending until the app receives confirmation from iCloud.
 
-Confirmed owner deletion ends the household share and access for all participants. Cleaning Schedule does not provide an undo, export, backup, or restoration after confirmed household deletion.
+Confirmed owner deletion removes the household data and ends the household share and access for all participants. Cleaning Schedule does not provide an undo, export, backup, or restoration after confirmed household deletion.
 
-A household member can use **Leave Household** to end participation and remove the shared household from that member's device after Apple confirms the change.
+A household member can use **Leave household**. Leaving a household ends your access and removes its shared data from your device after confirmation. It does not delete the owner’s household or its retained completion history.
 
 Deleting the app alone does not delete iCloud household data, end share participation, or cancel an App Store subscription.
+
+## Requesting deletion of support and subscription information
+
+To request deletion of support correspondence or applicable subscription-related data handled through RevenueCat, email <!--email_off--><a href="mailto:priya.satralkar8@gmail.com">priya.satralkar8@gmail.com</a><!--/email_off-->. Describe the information you want deleted and, for correspondence, identify the relevant conversation. Do not send passwords, payment-card details, purchase receipts, household invitation links, or sensitive household content.
+
+We may need further information to verify the request and locate the relevant records. Because the app uses an internal anonymous purchase identifier rather than an email-based account, your email address alone may not identify a RevenueCat record.
+
+Deletion is subject to our ability to identify the records, applicable service-provider processes, and legal retention obligations. Some information may need to be retained for legal or security purposes; we cannot promise immediate or complete deletion or delete records held independently by Apple. Requests about Apple-held information should be made through Apple's privacy and account controls.
+
+Deleting support or RevenueCat data does not cancel an Apple subscription. Manage or cancel it separately through [Apple's subscription settings](https://support.apple.com/en-gb/118428).
 
 ## Your choices
 
