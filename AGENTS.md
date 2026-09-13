@@ -1,16 +1,25 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-This repository is a Jekyll site for `sahilsatralkar.com`. Main content lives in `_pages/` for static pages and `_posts/` for blog entries. Use the Jekyll post pattern `YYYY-MM-DD-title-with-hyphens.md`. Shared data such as the top navigation lives in `_data/navigation.yml`. Layout templates are in `_layouts/`, reusable snippets are in `_includes/`, and styling is split between `assets/css/main.scss` and `_sass/minimal-mistakes/`. Publish optimized images in `assets/images/` and keep source originals in `assets/images_original/`. The `docs/` and `test/` trees are theme reference fixtures; most site changes should stay in the root site folders.
+This is the Jekyll site for `sahilsatralkar.com`. Content lives in `index.md`, `_pages/`, and `_posts/`; app legal/support pages live in `_pages/apps/`. Navigation is in `_data/navigation.yml`. Reuse `_layouts/*-custom.html`, `_includes/`, and the design system in `_sass/custom/`, imported by `assets/css/main.scss`. `_sass/minimal-mistakes/` contains theme styles. Publish optimized images in `assets/images/`; originals belong in `assets/images_original/`. `docs/` and `test/` are upstream theme references excluded from site builds, not application tests. Never edit generated `_site/` output.
 
 ## Build, Test, and Development Commands
-Run `bundle install` after cloning or when gem dependencies change. Use `bundle exec jekyll serve` for local development at `http://localhost:4000`. Build the site with `bundle exec jekyll build`, or use `JEKYLL_ENV=production bundle exec jekyll build` to match production behavior more closely. Before opening a PR, run `bundle exec htmlproofer ./_site --disable-external` to catch broken internal links and generated HTML issues. Use `bundle exec jekyll clean` if `_site/` or metadata becomes stale.
+- `bundle install`: install gem dependencies.
+- `bundle exec jekyll serve`: preview at `http://localhost:4000`.
+- `JEKYLL_ENV=production bundle exec jekyll build`: validate production output.
+- `bundle exec jekyll clean`: clear generated output and caches.
+- `git diff --check`: check patch whitespace.
+
+Use a compatible Ruby explicitly when needed, e.g. `/opt/homebrew/opt/ruby/bin/bundle`; do not change the user's default Ruby. There are no npm test/lint scripts. HTMLProofer is not a declared dependency: report it unavailable rather than claiming link checks passed. Avoid bare `rake`, which runs theme-maintenance tasks and rewrites files.
 
 ## Coding Style & Naming Conventions
-Follow `.editorconfig`: 2-space indentation, LF line endings, UTF-8, and trimmed trailing whitespace except in Markdown. Keep Markdown front matter explicit and consistent with existing pages. Use descriptive lowercase filenames for pages in `_pages/`, and absolute image paths such as `/assets/images/aquarium-life-header.png` inside posts. When editing styles, prefer small, targeted changes in existing SCSS partials instead of large overrides.
+Follow `.editorconfig`: two spaces, UTF-8, LF, and trimmed trailing whitespace except Markdown. Use lowercase hyphenated filenames and `YYYY-MM-DD-title.md` for posts. Liquid include parameters use `name="value"`, not YAML colons. Preserve existing typography, responsive containers, and content scope.
+
+## App Legal Pages
+Preserve routes and canonical URLs. Follow sibling front matter: `page-custom`, explicit title/SEO description, locale, legal-page class, `analytics: false`, and `remove_heading_permalinks: true`. Keep native `mailto:` links with existing `email_off` guards. Verify product claims against current app code; ask about unknown operator identities or dashboard settings. Never infer them from an email address. Update effective dates on publication. Jekyll analytics flags do not control Cloudflare injection; consult `.github/CLOUDFLARE_PENDING_ACTION.md` and verify live behaviour before closing it.
 
 ## Testing Guidelines
-There is no formal coverage target. Validation is build-based: run a local server for visual review, then run a production build and `htmlproofer` for link checks. If you change `_config.yml`, restart the Jekyll server before re-testing. Treat `test/` as fixture content, not as an app test suite.
+Build, inspect changed pages on mobile/desktop, and check links, email destinations, headings, keyboard access, and relevant Light/Dark behaviour. Restart after `_config.yml` changes. Report actual checks and limitations, not historical results.
 
 ## Commit & Pull Request Guidelines
-Recent commits use short, imperative subjects with no trailing period, for example `Fix blog post filename to follow Jekyll naming convention`. Keep commits focused on one content or styling change. PRs should summarize affected pages, list the verification commands you ran, link any related issue, and include screenshots for layout or visual updates.
+Preserve unrelated changes. Use focused imperative commit subjects. PRs should describe affected pages, verification, related issues, and visual evidence. Commit/push only when requested. Pushing `origin/master` triggers GitHub Pages publication; do not assume `main` exists. After publishing, verify the deployment and live content. Keep responses concise.
