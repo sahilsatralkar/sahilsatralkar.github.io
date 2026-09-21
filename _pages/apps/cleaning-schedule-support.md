@@ -1,8 +1,8 @@
 ---
 layout: page-custom
-title: "Cleaning Schedule Support"
-seo_title: "Cleaning Schedule Support"
-description: "Get help with Cleaning Schedule, including iCloud sync and sharing, household invitations, notifications, subscriptions, data deletion and privacy."
+title: "TidyTempo Support"
+seo_title: "TidyTempo Support"
+description: "Get help with TidyTempo, including iCloud sync and sharing, household invitations, notifications, subscriptions, data deletion and privacy."
 permalink: /apps/cleaning-schedule/support
 author_profile: false
 analytics: false
@@ -12,7 +12,7 @@ canonical_url: https://sahilsatralkar.com/apps/cleaning-schedule/support
 locale: en-GB
 ---
 
-Cleaning Schedule helps one household plan, assign, and complete one-time and repeating cleaning tasks.
+TidyTempo helps one household plan, assign, and complete one-time and repeating cleaning tasks.
 
 ## Contact
 
@@ -51,15 +51,15 @@ Local household planning can remain available without iCloud.
 
 ### Where is my household data stored?
 
-Cleaning Schedule can store a household locally on the iPhone or in your Apple iCloud account.
+TidyTempo can store a household locally on the iPhone or in your Apple iCloud account.
 
-A household you own can sync through your iCloud account. Accepting a household invitation gives you access to the shared household's data.
+A household you own can sync through your iCloud account. Accepting a household invitation gives you access to the shared household’s data.
 
-Cleaning Schedule does not operate a separate household-data server.
+TidyTempo does not operate a separate household-data server.
 
 ### Why have changes not appeared on another iPhone?
 
-Changes sync automatically through iCloud, but may take time to appear. Keep both iPhones connected to the internet with iCloud available. Delays can also depend on device settings or Apple services. Cleaning Schedule does not have a manual sync button or show an exact last-synced time.
+Changes sync automatically through iCloud, but may take time to appear. Keep both iPhones connected to the internet with iCloud available. Delays can also depend on device settings or Apple services. TidyTempo does not have a manual sync button or show an exact last-synced time.
 
 ### What is the difference between Apple Family Sharing and household sharing?
 
@@ -67,9 +67,9 @@ They are separate features.
 
 Apple Family Sharing may provide eligible subscription access to family members.
 
-Cleaning Schedule household sharing uses a separate invitation to give someone access to household data.
+TidyTempo household sharing uses a separate invitation to give someone access to household data.
 
-Receiving one does not automatically provide the other. Each participant needs active Pro access from their own subscription or an eligible Family-shared subscription to make changes in a shared household, such as assigning or completing tasks. Pro access does not give a member the organiser's permission to invite others.
+Receiving one does not automatically provide the other. Each participant needs active Pro access from their own subscription or an eligible Family-shared subscription to make changes in a shared household, such as assigning or completing tasks. Pro access does not give a member the organiser’s permission to invite others.
 
 ### Why is a shared household read-only?
 
@@ -87,19 +87,19 @@ Check the message shown in the app for the action available in your situation.
 
 Confirm that:
 
-1. the invitation was opened using the intended Apple Account;
-2. iCloud and iCloud Drive are available;
-3. the iPhone has a network connection;
-4. Cleaning Schedule shows active Pro access; and
-5. the app has completed creation of your household member profile.
+- the invitation was opened using the intended Apple Account;
+- iCloud and iCloud Drive are available;
+- the iPhone has a network connection;
+- TidyTempo shows active Pro access; and
+- the app has completed creation of your household member profile.
 
 If an eligible purchase or Family-shared subscription is missing, follow the restoration steps below.
 
 ### Why did I not receive a reminder?
 
-In Cleaning Schedule, open **Settings** and turn on **Notifications** in the **Preferences** section.
+In TidyTempo, open **Settings** and turn on **Notifications** in the **Preferences** section.
 
-If iOS notification permission was denied, turning this on opens the app's iPhone settings. Allow notifications there, then return to Cleaning Schedule and check the toggle.
+If iOS notification permission was denied, turning this on opens the app’s iPhone settings. Allow notifications there, then return to TidyTempo and check the toggle.
 
 Notification delivery also depends on iOS scheduling and device conditions. Notifications are not guaranteed, and the task list inside the app remains the primary record.
 
@@ -109,9 +109,9 @@ A reminder may also be removed after a task is completed, cancelled, covered by 
 
 If the app does not show active Pro access:
 
-1. Open **Settings**.
-2. Tap **View benefits** in the **Cleaning Schedule Pro** card at the top.
-3. Tap **Restore** at the bottom of the subscription screen. If products cannot be loaded, the alternative screen labels this action **Restore Purchases**.
+- Open **Settings**.
+- Tap **View benefits** in the **TidyTempo Pro** card at the top.
+- Tap **Restore** at the bottom of the subscription screen. If products cannot be loaded, the alternative screen labels this action **Restore Purchases**.
 
 Use the App Store account associated with the purchase or eligible Apple Family Sharing access, with an internet connection available.
 
@@ -119,19 +119,19 @@ When Pro is already active, Settings shows your plan and **Manage Subscription**
 
 ### How do I manage or cancel a subscription?
 
-When Pro is active, open **Settings** and tap **Manage Subscription** in the **Cleaning Schedule Pro** section below **Family**. This opens Apple's subscription-management interface.
+When Pro is active, open **Settings** and tap **Manage Subscription** in the **TidyTempo Pro** section below **Family**. This opens Apple’s subscription-management interface.
 
-If the app shows **View benefits** instead, manage the subscription through Apple's settings using the link below. A family member receiving shared access cannot cancel the purchaser's subscription for them.
+If the app shows **View benefits** instead, manage the subscription through Apple’s settings using the link below. A family member receiving shared access cannot cancel the purchaser’s subscription for them.
 
-You can also follow Apple's instructions at [If you want to cancel a subscription from Apple](https://support.apple.com/en-gb/118428).
+You can also follow Apple’s instructions at [If you want to cancel a subscription from Apple](https://support.apple.com/en-gb/118428).
 
-Deleting Cleaning Schedule does not cancel a subscription.
+Deleting TidyTempo does not cancel a subscription.
 
 ### How do I request a refund?
 
 Apple processes App Store payments and refund requests.
 
-Visit [reportaproblem.apple.com](https://reportaproblem.apple.com/) and follow Apple's instructions. Cleaning Schedule support cannot directly approve an App Store refund.
+Visit [reportaproblem.apple.com](https://reportaproblem.apple.com/) and follow Apple’s instructions. TidyTempo support cannot directly approve an App Store refund.
 
 ### What happens when Pro expires?
 
@@ -158,7 +158,7 @@ Deleting the app alone does not delete household data from iCloud or end partici
 
 ### How do I delete local app data?
 
-Deleting Cleaning Schedule removes its local app container and device-local preferences.
+Deleting TidyTempo removes its local app container and device-local preferences.
 
 This does not automatically:
 
@@ -169,15 +169,15 @@ This does not automatically:
 
 Use the appropriate **Leave household**, **Delete household**, or Apple subscription-management action first.
 
-### Does Cleaning Schedule track me?
+### Does TidyTempo track me?
 
-Cleaning Schedule does not contain advertising, cross-app tracking, or custom product-usage analytics.
+TidyTempo does not contain advertising, cross-app tracking, or custom product-usage analytics.
 
 RevenueCat processes the anonymous purchase and entitlement information required for subscriptions. Apple may provide aggregate App Store and diagnostic information according to your Apple privacy settings.
 
-See the [Cleaning Schedule Privacy Policy](https://sahilsatralkar.com/apps/cleaning-schedule/privacy) for details.
+See the [TidyTempo Privacy Policy](https://sahilsatralkar.com/apps/cleaning-schedule/privacy) for details.
 
 ## Legal
 
-- [Cleaning Schedule Privacy Policy](https://sahilsatralkar.com/apps/cleaning-schedule/privacy)
-- [Cleaning Schedule Terms of Use](https://sahilsatralkar.com/apps/cleaning-schedule/terms)
+- [TidyTempo Privacy Policy](https://sahilsatralkar.com/apps/cleaning-schedule/privacy)
+- [TidyTempo Terms of Use](https://sahilsatralkar.com/apps/cleaning-schedule/terms)

@@ -1,8 +1,8 @@
 ---
 layout: page-custom
-title: "Cleaning Schedule Privacy Policy"
-seo_title: "Cleaning Schedule Privacy Policy"
-description: "Learn how Cleaning Schedule handles household data, iCloud and CloudKit sharing, subscriptions, notifications, diagnostics and support communications."
+title: "TidyTempo Privacy Policy"
+seo_title: "TidyTempo Privacy Policy"
+description: "Learn how TidyTempo handles household data, iCloud and CloudKit sharing, subscriptions, notifications, diagnostics and support communications."
 permalink: /apps/cleaning-schedule/privacy
 author_profile: false
 analytics: false
@@ -12,15 +12,15 @@ canonical_url: https://sahilsatralkar.com/apps/cleaning-schedule/privacy
 locale: en-GB
 ---
 
-**Effective date:** 11 September 2026
+**Effective date:** 21 September 2026
 
-This Privacy Policy explains how the Cleaning Schedule app handles household information, purchases, notifications, diagnostics, and support communications.
+This Privacy Policy explains how the TidyTempo app handles household information, purchases, notifications, diagnostics, and support communications.
 
-Cleaning Schedule is developed and operated by Priya Satralkar, who is responsible for the information handling described in this policy. References to "we", "us", and "our" mean Priya Satralkar.
+TidyTempo is developed and operated by Priya Satralkar, who is responsible for the information handling described in this policy. References to “we”, “us”, and “our” mean Priya Satralkar.
 
 ## Overview
 
-Cleaning Schedule does not operate a separate user-account system or a developer-operated server for household content.
+TidyTempo does not operate a separate user-account system or a developer-operated server for household content.
 
 Depending on how you use the app, household information is stored:
 
@@ -28,13 +28,13 @@ Depending on how you use the app, household information is stored:
 - in your private iCloud database for synchronization between your devices; or
 - in an Apple CloudKit share when you choose household collaboration.
 
-Cleaning Schedule uses RevenueCat to provide subscription products and determine Pro access.
+TidyTempo uses RevenueCat to provide subscription products and determine Pro access.
 
 The app does not contain advertising, cross-app tracking, or a custom product-usage analytics service.
 
 ## Information you enter
 
-Cleaning Schedule may store information that you choose to enter, including:
+TidyTempo may store information that you choose to enter, including:
 
 - a member display name;
 - room names;
@@ -52,21 +52,21 @@ Do not enter passwords, financial information, medical information, or other sen
 
 ## Local information
 
-Cleaning Schedule stores onboarding drafts and device-local settings on your iPhone.
+TidyTempo stores onboarding drafts and device-local settings on your iPhone.
 
-The app's Haptics preference remains device-local and does not synchronize through iCloud.
+The app’s Haptics preference remains device-local and does not synchronize through iCloud.
 
-Local notification requests and notification-delivery state are managed by iOS. Cleaning Schedule reads the current notification-authorization state so it can explain whether reminders are available.
+Local notification requests and notification-delivery state are managed by iOS. TidyTempo reads the current notification-authorization state so it can explain whether reminders are available.
 
 Deleting the app normally removes its local app container and device-local settings. It does not automatically delete data already stored in iCloud, end household-share participation, or cancel a subscription.
 
 ## iCloud synchronization
 
-When iCloud is available and you choose cloud-backed use, Cleaning Schedule uses Apple Core Data and CloudKit to synchronize household information.
+When iCloud is available and you choose cloud-backed use, TidyTempo uses Apple Core Data and CloudKit to synchronize household information.
 
 A household you own or use alone is stored in your private CloudKit database. Apple may synchronize that information between devices signed in to the relevant Apple Account.
 
-Cleaning Schedule does not send household content to a separate developer-operated server.
+TidyTempo does not send household content to a separate developer-operated server.
 
 Apple handles iCloud information under its [Privacy Policy](https://www.apple.com/legal/privacy/).
 
@@ -95,9 +95,9 @@ You control whom you invite. A household owner can remove participants or delete
 
 App Store purchases and subscriptions are processed by Apple. We do not receive your payment-card details or Apple Account password.
 
-Cleaning Schedule uses RevenueCat to load subscription products, process purchase results, and determine Pro access.
+TidyTempo uses RevenueCat to load subscription products, process purchase results, and determine Pro access.
 
-Cleaning Schedule allows RevenueCat to generate a random anonymous App User ID internally. The app does not display this identifier. It links purchase and entitlement information within RevenueCat; using an anonymous identifier does not mean that no data is collected.
+TidyTempo allows RevenueCat to generate a random anonymous App User ID internally. The app does not display this identifier. It links purchase and entitlement information within RevenueCat; using an anonymous identifier does not mean that no data is collected.
 
 RevenueCat may receive:
 
@@ -107,7 +107,7 @@ RevenueCat may receive:
 - subscription and entitlement status; and
 - SDK-required app, store, device, and network metadata.
 
-Cleaning Schedule does not send RevenueCat:
+TidyTempo does not send RevenueCat:
 
 - your name or email address;
 - your Apple Account identifier;
@@ -122,7 +122,7 @@ Cleaning Schedule does not send RevenueCat:
 
 Apple App Store Server Notifications are configured to send purchase and subscription updates to RevenueCat. These incoming notifications are separate from outbound integrations, webhooks, or exports that send information from RevenueCat to other destinations.
 
-As of the effective date, no RevenueCat outbound integrations are active for Cleaning Schedule, including advertising destinations, webhooks, and scheduled data exports. This does not disable RevenueCat's own subscription processing or purchase-derived metrics described below.
+As recorded on 11 September 2026, no RevenueCat outbound integrations were active for TidyTempo, including advertising destinations, webhooks, and scheduled data exports. This does not disable RevenueCat’s own subscription processing or purchase-derived metrics described below.
 
 RevenueCat handles information under its [Privacy Policy](https://www.revenuecat.com/privacy-policy).
 
@@ -130,15 +130,15 @@ Apple handles App Store and purchase information under its [App Store & Privacy 
 
 ## Family Sharing
 
-Eligible Cleaning Schedule subscriptions may support Apple Family Sharing.
+Eligible TidyTempo subscriptions may support Apple Family Sharing.
 
-Apple determines Family Sharing membership, purchase sharing, and subscription eligibility. Cleaning Schedule receives only the purchase and entitlement evidence needed to determine whether Pro access is active.
+Apple determines Family Sharing membership, purchase sharing, and subscription eligibility. TidyTempo receives only the purchase and entitlement evidence needed to determine whether Pro access is active.
 
-Apple Family Sharing and Cleaning Schedule household sharing are separate. Family Sharing does not automatically disclose household content, and a Cleaning Schedule household invitation does not itself provide subscription access.
+Apple Family Sharing and TidyTempo household sharing are separate. Family Sharing does not automatically disclose household content, and a TidyTempo household invitation does not itself provide subscription access.
 
 ## Notifications
 
-Cleaning Schedule uses Apple local notifications for due reminders when you allow notification access.
+TidyTempo uses Apple local notifications for due reminders when you allow notification access.
 
 Notification content is generated from household task information available on the device. Requests are scheduled with iOS and are not sent through a developer-operated push-notification server.
 
@@ -146,11 +146,11 @@ You can change notification permission in iPhone Settings. Disabling notificatio
 
 ## Diagnostics
 
-Cleaning Schedule does not include third-party crash-reporting or general product-analytics SDKs.
+TidyTempo does not include third-party crash-reporting or general product-analytics SDKs.
 
 If you choose to share diagnostics with developers through your Apple settings, Apple may make crash, hang, launch, and performance information available through MetricKit, Xcode Organizer, or App Store Connect.
 
-Inside the production app, MetricKit deliveries are reduced to aggregate counts. Cleaning Schedule does not serialize, persist, export, or log raw MetricKit payloads, timestamps, stack traces, device identifiers, or household content.
+Inside the production app, MetricKit deliveries are reduced to aggregate counts. TidyTempo does not serialize, persist, export, or log raw MetricKit payloads, timestamps, stack traces, device identifiers, or household content.
 
 Apple handles diagnostic information under its [Privacy Policy](https://www.apple.com/legal/privacy/).
 
@@ -158,7 +158,7 @@ Apple handles diagnostic information under its [Privacy Policy](https://www.appl
 
 Apple may provide aggregated App Store acquisition and product-page information.
 
-RevenueCat may provide purchase-derived subscription, trial, renewal, conversion, churn, and revenue metrics. Cleaning Schedule does not add custom household or app-usage events to those metrics.
+RevenueCat may provide purchase-derived subscription, trial, renewal, conversion, churn, and revenue metrics. TidyTempo does not add custom household or app-usage events to those metrics.
 
 The app does not request App Tracking Transparency permission, access IDFA, or perform cross-app or cross-website tracking.
 
@@ -180,7 +180,7 @@ Email is transmitted and stored through the email providers used by you and by u
 
 ## How information is used
 
-Information handled by Cleaning Schedule is used to:
+Information handled by TidyTempo is used to:
 
 - provide local household planning;
 - synchronize eligible data through iCloud;
@@ -198,7 +198,7 @@ We do not sell household information or use it for advertising.
 
 Local information remains on the device until it is changed, deleted through an applicable app flow, or removed with the app.
 
-Household information stored in iCloud is subject to Apple's retention rules. Leaving a household or ending a participant's access does not delete the owner's household records. Confirmed owner deletion is a separate action, described below.
+Household information stored in iCloud is subject to Apple’s retention rules. Leaving a household or ending a participant’s access does not delete the owner’s household records. Confirmed owner deletion is a separate action, described below.
 
 Completion and cancellation history is intentionally retained as part of the household data until the household is deleted, including after a member leaves.
 
@@ -210,7 +210,7 @@ Support correspondence is retained only as long as reasonably necessary for supp
 
 A household owner can use **Delete household** in the app. For a cloud-backed household, deletion may remain pending until the app receives confirmation from iCloud.
 
-Confirmed owner deletion removes the household data and ends the household share and access for all participants. Cleaning Schedule does not provide an undo, export, backup, or restoration after confirmed household deletion.
+Confirmed owner deletion removes the household data and ends the household share and access for all participants. TidyTempo does not provide an undo, export, backup, or restoration after confirmed household deletion.
 
 A household member can use **Leave household**. Leaving a household ends your access and removes its shared data from your device after confirmation. It does not delete the owner’s household or its retained completion history.
 
@@ -222,9 +222,9 @@ To request deletion of support correspondence or applicable subscription-related
 
 We may need further information to verify the request and locate the relevant records. Because the app uses an internal anonymous purchase identifier rather than an email-based account, your email address alone may not identify a RevenueCat record.
 
-Deletion is subject to our ability to identify the records, applicable service-provider processes, and legal retention obligations. Some information may need to be retained for legal or security purposes; we cannot promise immediate or complete deletion or delete records held independently by Apple. Requests about Apple-held information should be made through Apple's privacy and account controls.
+Deletion is subject to our ability to identify the records, applicable service-provider processes, and legal retention obligations. Some information may need to be retained for legal or security purposes; we cannot promise immediate or complete deletion or delete records held independently by Apple. Requests about Apple-held information should be made through Apple’s privacy and account controls.
 
-Deleting support or RevenueCat data does not cancel an Apple subscription. Manage or cancel it separately through [Apple's subscription settings](https://support.apple.com/en-gb/118428).
+Deleting support or RevenueCat data does not cancel an Apple subscription. Manage or cancel it separately through [Apple’s subscription settings](https://support.apple.com/en-gb/118428).
 
 ## Your choices
 
@@ -238,14 +238,14 @@ You can:
 - control notification permission in iPhone Settings;
 - manage or cancel subscriptions through Apple;
 - restore eligible purchases;
-- delete the app's local data by deleting the app; and
+- delete the app’s local data by deleting the app; and
 - contact us with a privacy question.
 
-Requests concerning Apple Account, iCloud, or App Store information should also be directed through Apple's privacy and account controls.
+Requests concerning Apple Account, iCloud, or App Store information should also be directed through Apple’s privacy and account controls.
 
-## Children's privacy
+## Children’s privacy
 
-Cleaning Schedule does not ask users to provide their age and does not provide parent-managed proxy household profiles.
+TidyTempo does not ask users to provide their age and does not provide parent-managed proxy household profiles.
 
 The app does not knowingly seek personal information from children through a developer-operated account or advertising service.
 
@@ -253,7 +253,7 @@ If you believe a child has sent personal information to the support email, conta
 
 ## Changes to this policy
 
-We may update this policy when the app's behaviour, service providers, or legal requirements change.
+We may update this policy when the app’s behaviour, service providers, or legal requirements change.
 
 The revised policy will be posted at this URL with a new effective date.
 
@@ -263,5 +263,5 @@ For privacy questions, email <!--email_off--><a href="mailto:priya.satralkar8@gm
 
 ## Legal documents
 
-- [Cleaning Schedule Terms of Use](https://sahilsatralkar.com/apps/cleaning-schedule/terms)
-- [Cleaning Schedule Support](https://sahilsatralkar.com/apps/cleaning-schedule/support)
+- [TidyTempo Terms of Use](https://sahilsatralkar.com/apps/cleaning-schedule/terms)
+- [TidyTempo Support](https://sahilsatralkar.com/apps/cleaning-schedule/support)
