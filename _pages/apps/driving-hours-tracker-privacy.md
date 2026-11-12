@@ -29,6 +29,8 @@ Your logbook is stored on your iPhone. Eligible records can sync through your pr
 
 New users must grant Location access to complete setup. The app attempts to capture your route while a drive is recording, including in the background when iOS allows it. If permission or a usable location signal is unavailable, recording time may continue with missing or incomplete route information. You can change Location access and Precise Location in iPhone Settings.
 
+While a drive is paused, the app may still use location to detect movement. Location samples collected during the pause are excluded from the saved route.
+
 The app uses Apple MapKit to show maps. To label the start and finish of a saved drive, it can send the recorded endpoint coordinates to Apple Maps and request place names or addresses. This can happen when you view a saved-drive summary or open Drive Detail. The lookup results are used for display and can be included in an export you request. The app does not write those results back to your saved drive or sync them through iCloud. You can also choose to open Apple Maps separately during a drive. [Apple Maps & Privacy](https://www.apple.com/legal/privacy/data/en/apple-maps/)
 
 ## Local storage and iCloud

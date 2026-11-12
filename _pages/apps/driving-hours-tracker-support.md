@@ -44,7 +44,7 @@ Reopen Driving Hours on the same iPhone. If the app recovers the recording and y
 
 Open a drive from **Recent drives** on Overview or from the **Drives** list. Use **Add Note** or **Edit** in the Notes section. Recorded times, route, and vehicle are fixed when the drive is saved. The app records drives you start in Driving Hours, so keep a separate record if you forgot to start.
 
-To remove a drive and its stored route, open the drive, tap the **More** menu, then choose **Delete Drive** and confirm.
+To remove a drive and its stored route, open the drive, tap the **Drive Options (⋯)** menu, then choose **Delete Drive** and confirm.
 
 ## Practice goals and vehicles
 
@@ -63,7 +63,7 @@ Driving Hours Pro adds further recordings, multiple vehicles, detailed Insights,
 ### How do I restore, manage, or refund a purchase?
 
 - **Restore access.** Connect to the internet, use the App Store account associated with the purchase or eligible Family Sharing access, and tap **Restore Purchases** on the Driving Hours Pro purchase screen. If a purchase is still being verified and you see **Check Again**, use it to refresh your access.
-- **Manage or cancel a subscription.** In the app, go to **Settings → Driving Hours Pro → Manage Subscription** while the subscription is active. You can also manage it through Apple. Deleting the app leaves the subscription active until you cancel it. [Apple’s subscription instructions](https://support.apple.com/en-us/118428)
+- **Manage or cancel a subscription.** In the app, go to **Settings → Driving Hours Pro → Manage Subscription** while the subscription is active. You can also manage it through Apple. Deleting the app does not cancel your subscription. [Apple’s subscription instructions](https://support.apple.com/en-us/118428)
 - **Request a refund.** Submit your request directly to Apple through [Report a Problem](https://reportaproblem.apple.com/).
 
 If Pro access ends, you can finish an active drive, view saved drives and collections, and open or share PDFs already saved in the app.

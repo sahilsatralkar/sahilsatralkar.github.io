@@ -36,7 +36,7 @@ You are responsible for the accuracy of information you enter and for what you s
 
 ## Free recordings and Driving Hours Pro
 
-Free includes three lifetime recording Starts. A successful Start uses one free recording, even if you later discard or delete the drive. Failed Starts and Pause or Resume do not use the allowance. Deleting a drive does not restore a used Start.
+Free includes three lifetime recording Starts. A successful Start on Free uses one free recording, even if you later discard or delete the drive. Failed Starts and Pause or Resume do not use the allowance. Deleting a drive does not restore a used Start.
 
 Driving Hours Pro enables further recordings, additional vehicles, detailed Insights, collection creation and editing, and new PDF exports. You can set up and edit a Practice goal while you have a free Start remaining or active Pro access. If your access changes, an active drive can finish and your saved records remain available. You can still view existing collections and goal progress and open or share previously saved reports.
 
