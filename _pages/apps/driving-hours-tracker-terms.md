@@ -12,178 +12,56 @@ canonical_url: https://sahilsatralkar.com/apps/driving-hours-tracker/terms
 locale: en-GB
 ---
 
-**Effective date:** 28 August 2026
+**Effective date** 12 November 2026
 
-Apple Standard EULA: [**https://www.apple.com/legal/internet-services/itunes/dev/stdeula/**](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
+These Terms apply to your use of Driving Hours Tracker, displayed on your iPhone as Driving Hours. By using the app, you agree to these Terms. If you are too young to agree to these Terms where you live, use the app with permission from a parent or legal guardian.
 
-These Terms of Use ("Terms") apply to your use of the Driving Hours Tracker app ("the app"). By downloading or using Driving Hours Tracker, you agree to these Terms.
+## Apple’s terms
 
-If you are not old enough to agree to these Terms where you live, use the app only with permission from a parent or legal guardian.
+Driving Hours Tracker is licensed through the App Store. These Terms supplement Apple’s Standard End User License Agreement. If these Terms conflict with that agreement, Apple’s agreement controls to the extent required by Apple or applicable law. App Store purchases, billing, cancellations, and refunds are also subject to Apple’s applicable terms. [Apple Standard EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) · [Apple Media Services Terms and Conditions](https://www.apple.com/legal/internet-services/itunes/)
 
-## Apple terms
+## What the app does
 
-Driving Hours Tracker is licensed through Apple's App Store, not sold. Your use of the app is also governed by Apple's [Standard Licensed Application End User License Agreement ("Standard EULA")](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/), which is incorporated into these Terms by reference.
+Driving Hours Tracker helps you log everyday drives or track learner practice. It can record driving time and routes, estimate distance and speed, track progress toward a Practice goal, organize saved drives into collections, and generate PDF reports. It also offers supported controls and summaries through widgets, Live Activities, CarPlay, Siri, and Shortcuts.
 
-App Store purchases, subscriptions, billing, cancellation, and refunds are also subject to the [Apple Media Services Terms and Conditions](https://www.apple.com/legal/internet-services/itunes/).
+Location access is required to complete new setup. During a recording, the app uses available location data to capture the route. If access is later revoked or the location signal is interrupted, the timer may continue while the route and related estimates are incomplete or unavailable. Some short recordings ask you to choose Save or Discard.
 
-These Terms supplement the Standard EULA and do not replace it. If these Terms conflict with the Standard EULA, the Standard EULA controls to the extent required by Apple or applicable law.
+## Safe use and accuracy
 
-## What Driving Hours Tracker does
+Set up the app before you start driving. Use your iPhone only when safely stopped, or have a passenger operate it where lawful. Use hands-free or vehicle controls only when safe and permitted. Follow local laws, licence conditions, supervision requirements, and official instructions.
 
-Driving Hours Tracker helps learner drivers record practice drives that begin with Start and end with Finish.
+The app is intended for personal record keeping. GPS, device settings, signal interruptions, and background execution can affect recorded time, routes, and estimates. Use the official forms and evidence required by your licensing authority. The app cannot verify who was driving, whether supervision occurred, or whether an authority will accept a record. Keep independent records for any legal or safety-critical obligation.
 
-Depending on the information available, the app can store elapsed time, a private route, an Estimated Distance, a Night Estimate, the selected car, descriptive practice details, personal goals, and review status. It can show History and totals, synchronize eligible finished records through private iCloud, create a privacy-reduced PDF practice record, and provide limited companion controls or status through widgets, Live Activities, and eligible CarPlay systems.
+You are responsible for the accuracy of information you enter and for what you share. Use the app lawfully and respect other people’s rights. You may not interfere with the app or bypass its purchase or access controls.
 
-Apple Maps can be opened as an optional handoff after a drive starts. Driving Hours Tracker does not provide navigation, store an Apple Maps destination, or treat a planned route as recorded evidence.
+## Free recordings and Driving Hours Pro
 
-## Private practice record
+Free includes three lifetime recording Starts. A successful Start uses one free recording, even if you later discard or delete the drive. Failed Starts and Pause or Resume do not use the allowance. Deleting a drive does not restore a used Start.
 
-Driving Hours Tracker is a private practice record. It is not an official logbook, licensing-authority service, driving-school service, supervision system, safety system, odometer, or legal-compliance tool.
+Driving Hours Pro enables further recordings, additional vehicles, detailed Insights, collection creation and editing, and new PDF exports. You can set up and edit a Practice goal while you have a free Start remaining or active Pro access. If your access changes, an active drive can finish and your saved records remain available. You can still view existing collections and goal progress and open or share previously saved reports.
 
-The app does not verify:
+Pro is offered through the App Store as a Monthly subscription or a one-time Lifetime purchase, subject to availability. Monthly renews automatically unless cancelled under Apple’s terms. Lifetime has no recurring charge or scheduled expiry. If Apple offers you a Monthly introductory trial, the App Store shows its length, eligibility, and the price that applies after the trial. Check the purchase screen for your current price, currency, and billing terms before confirming.
 
-- who was driving;
-- whether supervision occurred;
-- whether entered practice details are true;
-- that a route, distance, time, or night classification is complete or accurate;
-- that a device clock or location was never changed or interrupted;
-- that a shared PDF was not altered outside the app; or
-- that any authority will accept a record.
-
-Requirements and accepted evidence vary. You are responsible for maintaining accurate records, following the rules that apply to you, and completing any required official forms.
-
-## Information you enter
-
-You are responsible for the learner display name, optional permit or reference value, car names, personal goals, Weather, Roads, Skills, Notes, and other information you enter.
-
-Do not enter passwords, payment-card information, Apple Account credentials, medical information, or other unnecessary sensitive information in names, references, or Notes.
-
-You retain your rights in the content you create. You grant Apple and the app the limited technical permissions needed to store, synchronize, and display that content as described in these Terms and the Privacy Policy. Apple and RevenueCat process purchase and entitlement information as described separately below.
-
-## Location, distance, and night estimates
-
-Location is optional for time recording. If location permission is denied, revoked, interrupted, or unavailable, Start, elapsed-time recording, and Finish can still work, but route evidence and derived results may be partial, reduced in accuracy, unavailable, or unclassified.
-
-An Estimated Distance is calculated from accepted recorded location samples. It is not an odometer reading, a verified travel distance, or a planned Apple Maps route. The app does not fill substantial location gaps with a straight line or claim that missing travel was captured.
-
-A Night Estimate is a best-effort astronomical classification based on available time, location, and time-zone evidence. It is not a legal-night-hours determination. Time that cannot be classified reliably is shown as Unclassified.
-
-## Safe and lawful use
-
-Use Driving Hours Tracker only where lawful and safe.
-
-Do not interact with an iPhone while driving. Configure the app before moving, and use an available passenger, a safe stopped location, or permitted hands-free and vehicle controls where appropriate. Never let the app, a widget, Live Activity, CarPlay screen, notification, map, or recording issue distract you from driving.
-
-Driving Hours Tracker does not provide driving instruction, emergency assistance, navigation guidance, road-safety advice, or legal advice. Follow applicable laws, licence conditions, supervisor requirements, road rules, vehicle instructions, and official guidance.
-
-Do not rely on the app as the only record or safeguard for a legal, safety-critical, or time-critical obligation.
-
-## Acceptable use
-
-You may use Driving Hours Tracker for lawful personal learner-driving record keeping.
-
-You may not:
-
-- misuse or interfere with the app or its services;
-- attempt to bypass purchase, entitlement, or free-drive controls;
-- use the app to violate applicable law or another person's rights;
-- enter unlawful, abusive, or harmful content; or
-- use the app in a way that creates an unsafe driving distraction.
-
-## One free drive and Full Access
-
-A new learner data scope begins with one free-drive allowance. Only a successfully saved Start authorized by that allowance changes it from available to used. A failed Start does not consume it.
-
-Deleting a free drive, deleting the app, or using **Erase Logbook Data and Start Over** does not restore a used free-drive allowance.
-
-Driving Hours Tracker may offer Weekly Full Access and Monthly Full Access as automatically renewing subscriptions. Both plans provide the same app access for different billing periods.
-
-Monthly Full Access may include a seven-day introductory free trial for an eligible Apple Account when Apple displays that offer. Weekly Full Access has no introductory trial. Apple determines trial eligibility. A person who is not eligible for the Monthly trial is charged when the purchase is confirmed under the terms Apple displays.
-
-Available products, current prices, currencies, billing periods, renewal terms, trial details, and eligibility are displayed from current Apple product information before purchase. Prices are not fixed by this document.
-
-Payment is charged to your Apple Account when you confirm a purchase. A subscription renews automatically unless it is cancelled in accordance with Apple's applicable subscription terms.
-
-Eligible subscriptions may support Apple Family Sharing. Family Sharing provides eligible Full Access only. It does not share a learner logbook, routes, cars, goals, PDFs, or the free-drive allowance.
-
-If Full Access expires, is refunded, is revoked, or is no longer available through Family Sharing, an active drive is not interrupted and saved records remain available. Only a later Start may require an unused free-drive allowance or renewed Full Access.
-
-Deleting Driving Hours Tracker does not cancel a subscription.
+Eligible purchases may be available through Apple Family Sharing. Sharing purchase access keeps each person’s logbook, routes, goals, vehicles, reports, and free recording allowance separate.
 
 ## Managing purchases
 
-Use **Settings → Access → Manage Subscription** in Driving Hours Tracker to open Apple's subscription-management interface.
+Use Restore Purchases on the app’s purchase screen to restore eligible access through Apple. If you have an active subscription, use **Settings → Driving Hours Pro → Manage Subscription** in the app or manage it directly through Apple. Deleting the app does not cancel a subscription. Apple handles payment and refund requests. [Manage or cancel an Apple subscription](https://support.apple.com/en-us/118428) · [Request a refund from Apple](https://support.apple.com/en-us/118223)
 
-Use **Settings → Access → Restore Purchases** to ask Apple and the app's purchase service to restore eligible access for the current App Store account or Family Sharing arrangement.
+## Storage, sharing, and deletion
 
-Apple processes payments, cancellations, and refund requests. We do not receive your payment-card details or Apple Account password.
+Eligible saved records can sync through private iCloud when it is available. Synchronization may take time. Active recordings and short recordings awaiting a Save or Discard decision stay on the recording iPhone.
 
-Apple provides subscription-management guidance at [If you want to cancel a subscription from Apple](https://support.apple.com/118428).
+You can delete individual items from their screens. Deleting the app normally removes local app data. Data already in iCloud and copies of PDFs you saved or shared elsewhere can remain. For iCloud deletion instructions, see **Settings → Privacy & Legal → About Your Data** in the app. [Privacy Policy](https://sahilsatralkar.com/apps/driving-hours-tracker/privacy)
 
-Refund eligibility and refund requests are handled through [reportaproblem.apple.com](https://reportaproblem.apple.com/).
+## Availability and liability
 
-## Third-party and Apple services
+Features depend on a compatible device, iOS, permissions, and, where applicable, internet access and Apple services. We may change or discontinue features where reasonably necessary.
 
-Driving Hours Tracker depends on services supplied by Apple, including iOS, the App Store, StoreKit, iCloud, CloudKit, Core Location, MapKit and Apple Maps, widgets, Live Activities, CarPlay, system sharing, and system diagnostics.
+The app is provided as available, subject to Apple’s Standard EULA and applicable law. To the extent permitted by law, we are not responsible for indirect, incidental, special, or consequential loss arising from use of the app, including loss of records, interrupted capture, inaccurate estimates, or rejection of a record by an authority. These Terms preserve any rights, remedies, warranties, or liability that applicable law protects.
 
-Driving Hours Tracker uses RevenueCat to load subscription products, process purchase results, and determine Full Access. RevenueCat receives an automatically generated anonymous App User ID, purchase and entitlement information, and the limited technical metadata required to provide that service. The app does not display that identifier and does not send RevenueCat learner names, permit references, drives, routes, locations, distance, goals, cars, Notes, PDFs, or the free-drive allowance.
+## Changes and contact
 
-Your use of Apple and RevenueCat services is also subject to their applicable terms and policies.
+If we update these Terms, we will post the revised version here with a new effective date.
 
-## Availability and changes
-
-The app's behaviour depends on the iPhone, iOS version, Apple Account, iCloud configuration, location permission, network availability, subscription state, available local proof of access, and Apple or RevenueCat service availability.
-
-An active drive and locally available records do not require a continuous internet connection. Purchases, Restore Purchases, iCloud synchronization, Apple Maps content, and entitlement recovery on a new installation may require connectivity.
-
-Location, background execution, map content, iCloud synchronization, widgets, Live Activities, and CarPlay are controlled partly by iOS, device settings, compatible hardware, and Apple services. They may be delayed, limited, interrupted, or unavailable.
-
-We may update, improve, change, suspend, or discontinue features where reasonably necessary. We do not guarantee that every feature will always be available on every device, in every country, or through every Apple Account.
-
-Nothing in this section limits rights that cannot legally be excluded.
-
-## Privacy
-
-The [Driving Hours Tracker Privacy Policy](https://sahilsatralkar.com/apps/driving-hours-tracker/privacy) explains how the app handles information.
-
-## Disclaimer and limitation
-
-Driving Hours Tracker is provided on an "as is" and "as available" basis, subject to the warranties, remedies, limitations, and consumer rights contained in the Standard EULA and applicable law.
-
-To the maximum extent permitted by applicable law, we are not responsible for indirect, incidental, special, or consequential loss arising from use of the app, including incomplete or lost records, interrupted location capture, inaccurate estimates, delayed synchronization, unavailable services, unsafe use, or rejection of a record by an authority.
-
-Nothing in these Terms excludes warranties, remedies, consumer rights, or liability that cannot legally be excluded.
-
-## Deletion and ending use
-
-You may stop using Driving Hours Tracker and delete the app at any time.
-
-Deleting an individual drive also deletes its stored route and derived results from the current logbook. There is no app-provided undo or Recently Deleted area. A privacy-minimal synchronization tombstone may remain to prevent an older offline device from restoring the deleted drive.
-
-**Erase Logbook Data and Start Over** removes the current learner logbook locally and from private iCloud where possible. It does not cancel or refund a subscription, change Full Access, or restore a used free drive. Old offline devices may require time to receive the deletion.
-
-Deleting the app normally removes its local app container. It does not:
-
-- cancel an App Store subscription;
-- guarantee deletion of data that already reached private iCloud;
-- delete purchase and service records maintained by Apple or RevenueCat; or
-- recall a PDF that was already created or shared.
-
-An active drive or other data that has not synchronized may be lost when the app is deleted, the device is erased, or the device becomes unavailable.
-
-Subscription cancellation must be completed separately through Apple's subscription-management interface.
-
-## Changes to these Terms
-
-We may update these Terms when the app, its services, business model, or legal requirements change.
-
-The revised Terms will be posted at this URL with a new effective date. Continued use after an update means you accept the revised Terms to the extent permitted by applicable law.
-
-## Contact
-
-For questions about these Terms, email <!--email_off--><a href="mailto:priya.satralkar8@gmail.com">priya.satralkar8@gmail.com</a><!--/email_off-->.
-
-## Legal documents
-
-- [Driving Hours Tracker Privacy Policy](https://sahilsatralkar.com/apps/driving-hours-tracker/privacy)
-- [Driving Hours Tracker Support](https://sahilsatralkar.com/apps/driving-hours-tracker/support)
+For questions about these Terms, email <!--email_off--><a href="mailto:priya.satralkar8@gmail.com">priya.satralkar8@gmail.com</a><!--/email_off--> or visit [Driving Hours Tracker Support](https://sahilsatralkar.com/apps/driving-hours-tracker/support).
