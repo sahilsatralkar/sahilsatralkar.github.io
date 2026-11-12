@@ -12,310 +12,65 @@ canonical_url: https://sahilsatralkar.com/apps/driving-hours-tracker/privacy
 locale: en-GB
 ---
 
-**Effective date:** 28 August 2026
+**Effective date** 12 November 2026
 
-This Privacy Policy explains how the Driving Hours Tracker app handles learner information, driving records, location, iCloud synchronization, purchases, system surfaces, diagnostics, PDFs, and support communications.
+This policy explains how Driving Hours Tracker, displayed on your iPhone as Driving Hours, handles your driving records, location, purchases, and information you share.
 
-## Overview
+Your logbook is stored on your iPhone. Eligible records can sync through your private iCloud database. The app has no separate developer account or developer-operated logbook server. It is ad-free and uses no cross-app tracking or custom product-usage analytics.
 
-Driving Hours Tracker does not operate a separate developer account system or a developer-operated server for learner logbook content.
+## Information the app uses
 
-Depending on how you use the app, information is stored:
+- **Setup and preferences.** The app stores your name, your choice to track learner practice or general driving, vehicle details and selection, distance units, and other app preferences. If you set a Practice goal, it stores your target, target date, and when the goal began.
+- **Driving records.** The app stores start and end times, pauses, recorded duration, time-zone information, the vehicle used, and any notes you add. Route records can include timestamped location coordinates and accuracy values. The app uses this information to show routes, summarize drives, estimate distance and speed, and calculate progress and reports. Older logbooks may contain details entered in earlier versions of the app.
+- **Collections and reports.** The app stores collection names, notes, and which drives belong to each collection. It also stores reports you choose to save.
+- **Technical records.** The app keeps record and installation identifiers, synchronization and deletion information, and free recording usage. It uses these to recover recordings, keep logbooks separate, reconcile changes across devices, and enforce the recording allowance.
 
-- locally on your iPhone;
-- in your private iCloud database for eligible synchronization between your iPhones; or
-- in a PDF outside the app when you choose to create or share one.
+## Location and Apple Maps
 
-Driving Hours Tracker uses RevenueCat to provide subscription products and determine Full Access.
+New users must grant Location access to complete setup. The app attempts to capture your route while a drive is recording, including in the background when iOS allows it. If permission or a usable location signal is unavailable, recording time may continue with missing or incomplete route information. You can change Location access and Precise Location in iPhone Settings.
 
-The app does not contain advertising, cross-app tracking, or custom product-usage analytics. Learner details, drives, routes, locations, goals, cars, Notes, PDFs, and the free-drive allowance are not sent to RevenueCat.
+The app uses Apple MapKit to show maps. To label the start and finish of a saved drive, it can send the recorded endpoint coordinates to Apple Maps and request place names or addresses. This can happen when you view a saved-drive summary or open Drive Detail. The lookup results are used for display and can be included in an export you request. The app does not write those results back to your saved drive or sync them through iCloud. You can also choose to open Apple Maps separately during a drive. [Apple Maps & Privacy](https://www.apple.com/legal/privacy/data/en/apple-maps/)
 
-## Information you enter
+## Local storage and iCloud
 
-Driving Hours Tracker may store information that you choose to enter, including:
+The app uses iOS Data Protection for local storage. Active recordings and short recordings waiting for you to choose Save or Discard stay on the recording iPhone. Choosing Discard removes the pending recording. A free Start already used still counts toward your allowance.
 
-- a learner display name;
-- an optional permit or reference value;
-- personal total-hours and night-hours goals;
-- a Miles or Kilometers preference;
-- car names and the Selected Car;
-- Weather, Roads, and Skills selections; and
-- Notes about a drive.
+When iCloud is available, eligible data can sync through Apple’s private CloudKit database to iPhones using the same Apple Account. This can include your logbook profile, vehicles, saved drives and their recorded routes, notes, Practice goal, collections and their membership, eligible preferences, and free recording usage. The app keeps different Apple Account logbooks separate. Sync can be delayed or unavailable depending on your connection, account, and settings. [Apple Privacy Policy](https://www.apple.com/legal/privacy/)
 
-Do not enter passwords, payment-card information, Apple Account credentials, medical information, or other unnecessary sensitive information in these fields.
+## Widgets, CarPlay, notifications, and Siri & Search
 
-## Drive and route information
+Widgets, Live Activities, and CarPlay can display limited information such as the selected vehicle, recording status, elapsed time, and summary information where supported. Notifications can show recording reminders or that a drive has ended. You can manage notifications in the app or in iPhone Settings.
 
-When you use Start and Finish, the app may create and store:
+**Show saved content in Siri & Search** is on by default. It lets iOS surface limited saved information such as vehicle names, drive dates or place labels, collection titles, and report titles. The search index excludes active recordings, precise route coordinates, drive notes, and PDF contents. You can turn off saved-content discovery in **Settings → Privacy & Legal → Siri & Search** in the app.
 
-- random record and installation identifiers;
-- Start and Finish times;
-- elapsed duration and time-zone context;
-- the surface that issued a command, such as iPhone, widget, or CarPlay;
-- the selected car identifier and name captured at Start;
-- review state and revision times;
-- route status and quality information;
-- timestamped location coordinates and horizontal-accuracy values when location is available;
-- a derived Estimated Distance and calculation provenance;
-- estimated Day, Night, and Unclassified durations;
-- privacy-reduced start and end information;
-- schema, integrity, conflict-resolution, deletion, and synchronization metadata; and
-- the descriptive practice information listed above.
+## PDF reports and sharing
 
-Exact timestamped route coordinates are treated as highly sensitive. They are used for the private in-app route, Estimated Distance, Night Estimate, route-quality disclosure, integrity checks, and private iCloud synchronization.
+The app generates PDFs when you request them. Drive and Collection exports can include maps of recorded routes, full start and finish addresses when available, drive notes, and recording details. Reports generated from Settings use approximate start and finish areas. Saved reports are stored locally and may be included in device backups.
 
-Exact routes and coordinates are not included in widgets, Live Activities, CarPlay, notifications, routine diagnostics, RevenueCat data, PDFs, or external route links.
+If you save or share a PDF through the iOS share sheet, the destination you choose receives a copy. You manage that copy wherever it is stored. Deleting the original drive, report, or app does not delete copies you previously shared or saved elsewhere.
 
-## Local storage
+## App Store purchases
 
-The local logbook is the authoritative record for an active drive. Driving Hours Tracker stores app data in its iOS app container using a Core Data SQLite store and device-local preferences.
+Apple processes purchases and subscriptions. The app uses StoreKit to load offers, verify purchase status, restore eligible access, and recognize eligible Family Sharing access. The app does not receive your payment-card details or Apple Account password. Purchase requests do not include your name, driving records, routes, locations, or free recording usage. Family Sharing provides eligible purchase access while keeping each person’s logbook separate. [App Store & Privacy](https://www.apple.com/legal/privacy/data/en/app-store/)
 
-The app uses iOS Data Protection compatible with the background access needed to keep an active drive durable. No storage system can guarantee that data will never be lost or accessed unlawfully.
+## Diagnostics and support
 
-Device-local information can include:
+Depending on your Apple settings, Apple may make crash, performance, and aggregate App Store information available through its developer services. If you email us, we receive your email address, message, and any attachments you choose to send. We use that information to respond, troubleshoot, and meet applicable legal obligations. We keep it for as long as reasonably needed for those purposes. Please leave sensitive information such as passwords, payment details, exact locations, and route screenshots out of support messages.
 
-- onboarding progress and setup drafts;
-- an active drive and unsynchronized route samples;
-- local synchronization state;
-- a one-way hash derived from the current iCloud user record identifier, used to keep different Apple Account datasets isolated;
-- locally accepted Full Access evidence through its known expiry; and
-- compact widget and Live Activity projections.
+## Retention and your choices
 
-The app does not use the iCloud account hash as an advertising identifier or send it to RevenueCat.
+Saved records remain until you delete them or remove the app’s local data. You can delete individual drives, vehicles, collections, and saved reports from their screens. Deleting a drive also removes its stored route from the current logbook. A minimal deletion record may remain in iCloud to help prevent an offline device from restoring a deleted item.
 
-Deleting the app normally removes its local app container and device-local preferences. Unsynchronized data, including an active drive, may then be unrecoverable. Deleting the app does not automatically remove data already stored in private iCloud or cancel a subscription.
+Deleting the app normally removes local app data. Data already stored in iCloud can remain. If you want to remove that data, remove the app from the devices that sync it, then check **iPhone Settings → your name → iCloud → Storage or Manage Account Storage → Driving Hours**. If the app is listed, use Apple’s option to delete its data. Turning off iCloud sync stops synchronization while stored copies can remain.
 
-## Location
+You can manage Location, notifications, and iCloud in iPhone Settings, turn off saved-content discovery in the app, and choose which reports to create or share.
 
-Driving Hours Tracker asks for location access in context when a drive starts from the iPhone or widget. A CarPlay Start does not trigger a location-permission prompt on the vehicle display.
+## Younger users
 
-When permission and iOS allow it, the app records location during an active drive, including while the app is in the background. iOS may show its background-location indicator. The app records timestamped coordinates and accuracy values in small local batches.
+The app does not ask for a user’s age. A parent or guardian should supervise use when a learner is too young to manage their own records. If you believe a child sent personal information to support, contact us so we can review it and delete it where appropriate.
 
-Location is used to:
+## Changes and contact
 
-- draw the private in-app route;
-- calculate a best-effort Estimated Distance;
-- calculate a best-effort Night Estimate;
-- identify route gaps or reduced accuracy; and
-- derive privacy-reduced start and end information for the app and PDF.
+If we update this policy, we will post the revised version here with a new effective date.
 
-Location is optional for time recording. If you deny or revoke permission, the timer and Finish can still work, while route, distance, endpoint, or night information may be limited, unavailable, or Unclassified.
-
-You can review or change location permission in iPhone Settings.
-
-## Estimated Distance and Night Estimate
-
-Estimated Distance is derived locally from accepted consecutive location samples within captured route segments. The app does not use a planned Apple Maps route, fill a substantial GPS gap, or substitute a straight line between the first and last point.
-
-Night Estimate is calculated locally from available time, location, and time-zone evidence. Inconclusive time is stored as Unclassified rather than being guessed.
-
-The app stores calculation versions and quality information so results can be explained consistently. These results are estimates, not verified odometer or legal-night-hours values.
-
-## iCloud synchronization
-
-When an Apple Account and iCloud are available, Driving Hours Tracker uses Apple's private CloudKit database to synchronize eligible logbook information between iPhones signed in to that account.
-
-Eligible synchronized information includes:
-
-- finished drives and their exact private routes;
-- Estimated Distance, Night Estimate, route-quality, and calculation information;
-- Needs Review drafts and Reviewed state;
-- learner report details and personal goals;
-- car profiles and the Selected Car;
-- the Miles or Kilometers preference;
-- deletions and logbook-generation information; and
-- a privacy-minimal record of whether the one free drive is available or used.
-
-Active drives are not synchronized and cannot be controlled or finished remotely from another iPhone.
-
-Driving Hours Tracker uses private iCloud data only. It does not create a shared family logbook or send learner content to a separate developer-operated server. Apple Family Sharing shares eligible subscription access only, not learner data or the free-drive allowance.
-
-Synchronization is asynchronous. It may be delayed or unavailable because of the network, iCloud capacity, Apple Account state, device settings, or Apple service conditions. Locally authorized recording and locally available records remain usable when iCloud is unavailable.
-
-A minimal deletion tombstone or logbook-generation record may remain in private synchronization data to prevent an old offline device from restoring deleted content. A drive tombstone contains only identifiers and deletion-generation information needed for that purpose, not its time, route, car, or descriptive content.
-
-Apple handles iCloud information under its [Privacy Policy](https://www.apple.com/legal/privacy/).
-
-## Apple Maps and system services
-
-Driving Hours Tracker uses Apple MapKit to present a route inside the app. It may open the Apple Maps app after Start when you choose that handoff. Driving Hours Tracker does not store the destination you choose in Apple Maps or import a planned route as recorded evidence.
-
-Map tiles, system-provided place information, and Apple Maps interactions are supplied by Apple and may require network access. Apple handles those services under its [Privacy Policy](https://www.apple.com/legal/privacy/).
-
-## Widgets, Live Activities, and CarPlay
-
-Driving Hours Tracker can place a compact projection in its private app group so its widget can show setup or access state, learner name, Selected Car, total recorded time, a personal goal, and active-drive status where appropriate.
-
-A Live Activity can contain a random drive identifier, the captured car name, and the Start time needed to show recording status and elapsed time.
-
-Eligible CarPlay systems can show limited setup, access, Selected Car, recording, elapsed-time, and Finish information through the running app.
-
-These are Apple-managed system surfaces. Their visibility depends on your device, Lock Screen, widget, Live Activity, notification-preview, CarPlay, and vehicle settings. They never receive the exact route from the app.
-
-## PDFs and sharing
-
-Driving Hours Tracker generates PDF practice records locally from data available on the iPhone.
-
-A PDF can contain:
-
-- the learner display name and optional permit or reference;
-- the selected date range and generation time;
-- goals, totals, statuses, and quality disclosures;
-- drive times, durations, Estimated Distance, Night Estimate, and Unclassified time;
-- privacy-reduced start and end information;
-- captured car names and descriptive practice details; and
-- product disclaimers.
-
-A PDF never contains exact coordinates, street addresses, route geometry, route thumbnails, or route links.
-
-When you share or save a PDF through the iOS share sheet, the destination you choose receives a copy. That copy is outside the app's control and cannot be recalled, changed, or deleted by Driving Hours Tracker.
-
-## Purchases and RevenueCat
-
-App Store purchases and subscriptions are processed by Apple. We do not receive your payment-card details or Apple Account password.
-
-Driving Hours Tracker uses RevenueCat to load subscription products, process purchase results, restore eligible purchases, determine Full Access, and keep entitlement state current.
-
-RevenueCat generates a random anonymous App User ID for the installation. Driving Hours Tracker does not display that identifier and does not set a name, email address, or other customer attribute on it.
-
-RevenueCat may receive:
-
-- the anonymous App User ID;
-- App Store product, offering, purchase, transaction, and receipt information;
-- subscription, trial, Family Sharing ownership, renewal, expiry, and entitlement status; and
-- SDK-required app, platform, operating-system, store, locale, currency, network, and service metadata.
-
-Driving Hours Tracker does not deliberately send RevenueCat:
-
-- a learner name, email address, or permit reference;
-- an Apple Account or iCloud identifier;
-- an iCloud account hash or CloudKit record identifier;
-- a drive, route, coordinate, endpoint, or location-permission state;
-- Estimated Distance, Distance Unit, Night Estimate, or goal information;
-- a car name or identifier;
-- Weather, Roads, Skills, or Notes;
-- a PDF or PDF selection;
-- free-drive allowance state or consumption events;
-- customer attributes;
-- advertising identifiers;
-- attribution data; or
-- custom product-usage, onboarding, or paywall-impression events.
-
-Automatic device-identifier collection and RevenueCat diagnostics are disabled in the app configuration. Driving Hours Tracker does not enable RevenueCat advertising integrations, attribution integrations, custom webhooks, or exports without a separate review and an updated disclosure.
-
-RevenueCat handles information under its [Privacy Policy](https://www.revenuecat.com/privacy-policy).
-
-Apple handles App Store and purchase information under its [App Store & Privacy information](https://www.apple.com/legal/privacy/data/en/appstore/) and [Privacy Policy](https://www.apple.com/legal/privacy/).
-
-## Family Sharing
-
-Eligible Driving Hours Tracker subscriptions may support Apple Family Sharing.
-
-Apple determines family membership, purchase sharing, and subscription eligibility. Driving Hours Tracker receives only the purchase and entitlement evidence needed to determine whether Full Access is active.
-
-Family Sharing provides access only. It does not disclose or combine learner names, permit references, logbooks, drives, routes, cars, goals, PDFs, or free-drive allowances between family members.
-
-## Diagnostics and App Store metrics
-
-Driving Hours Tracker does not include third-party crash-reporting, advertising, attribution, or general product-analytics SDKs.
-
-If you choose to share analytics or diagnostics with developers through your Apple settings, Apple may make crash, hang, launch, performance, and aggregate app information available through its developer services. Do not include learner or route content when you voluntarily send a screenshot, recording, or support message.
-
-Apple may provide aggregated App Store acquisition and product-page information. RevenueCat may provide purchase-derived subscription, trial, renewal, churn, and revenue information. Driving Hours Tracker does not add custom learner, drive, location, onboarding, or app-usage events to those metrics.
-
-The app does not request App Tracking Transparency permission, access IDFA, sell learner information, or perform cross-app or cross-website tracking.
-
-## When you contact support
-
-If you email us, we receive the email address, message, and attachments that you choose to provide.
-
-We use support information only to:
-
-- respond to your request;
-- troubleshoot the app;
-- investigate purchase or restoration issues;
-- protect the app and its users; or
-- meet applicable legal obligations.
-
-Support correspondence is retained only for as long as reasonably needed for those purposes.
-
-Email is transmitted and stored through the email providers used by you and by us. Do not send Apple Account passwords, payment-card details, App Store receipts, permit information, learner records, exact locations, route screenshots, PDFs, or other sensitive content.
-
-## How information is used
-
-Information handled by Driving Hours Tracker is used to:
-
-- create and maintain a local learner logbook;
-- record and recover active drives;
-- calculate durations, route quality, Estimated Distance, and Night Estimate;
-- show History, totals, review status, and personal-goal progress;
-- synchronize eligible data through private iCloud;
-- provide requested widget, Live Activity, CarPlay, Apple Maps, and PDF features;
-- verify Full Access and the one-free-drive allowance;
-- restore eligible purchases; and
-- respond to support requests.
-
-We do not sell learner information or use it for advertising.
-
-## Retention
-
-Local logbook information remains on the iPhone until it is changed, deleted through an applicable app flow, erased with the logbook, or removed with the app.
-
-Cloud-backed information remains in private iCloud until it is deleted, the logbook is erased, or Apple applies its own retention rules. Synchronization and deletion may be delayed while a device or iCloud is offline.
-
-Completed records remain until you delete a drive or erase the logbook. Privacy-minimal tombstones may remain for the life of the current logbook generation. The free-drive allowance is intentionally separate from the erasable logbook and is not reset by deleting a drive or erasing the logbook.
-
-Apple and RevenueCat retain purchase and service information according to their respective policies and legal obligations.
-
-Support correspondence is retained only as long as reasonably necessary for support, security, and legal purposes.
-
-PDF copies remain wherever you choose to save or share them and are outside the app's retention control.
-
-## Deleting information
-
-You can delete an individual drive from History or Drive Detail. Confirmed deletion removes the drive, its exact route, and its derived results from the current logbook. There is no app-provided undo or Recently Deleted area. A privacy-minimal synchronization tombstone may remain to prevent stale restoration.
-
-You can use **Settings → Erase Logbook Data and Start Over** to remove the current learner logbook locally and from private iCloud where possible. This action is unavailable during Recording or Finalizing. It does not cancel or refund a subscription, change Full Access, or restore a used free-drive allowance. Previously shared PDFs remain outside the app's control.
-
-Deleting the app normally removes its local app container but does not automatically remove information already stored in private iCloud, cancel an App Store subscription, delete Apple or RevenueCat purchase records, or recall a shared PDF.
-
-## Your choices
-
-You can:
-
-- allow or deny location access in iPhone Settings;
-- keep recording time when location is unavailable;
-- control iCloud access through Apple settings;
-- delete individual drives;
-- erase the current logbook through the app when no drive is Recording or Finalizing;
-- choose whether to create, save, or share a PDF;
-- add, edit, or omit optional learner and practice details before they become locked;
-- manage or cancel subscriptions through Apple;
-- restore eligible purchases;
-- delete the app's local data by deleting the app; and
-- contact us with a privacy question.
-
-Requests concerning Apple Account, iCloud, App Store, Apple Maps, Family Sharing, or Apple diagnostic information should also be directed through Apple's privacy and account controls.
-
-## Children's privacy
-
-Driving Hours Tracker does not ask for a user's age and does not operate a developer account, advertising service, or shared family logbook.
-
-A learner display name is stored locally and may synchronize through the learner's private iCloud account. It is not deliberately sent to the developer or RevenueCat.
-
-If a child is not old enough to manage the app and its records independently where they live, a parent or legal guardian should supervise its use. If you believe a child has sent personal information to the support email, contact us so that we can review and delete it where appropriate.
-
-## Changes to this policy
-
-We may update this policy when the app's behaviour, service providers, or legal requirements change.
-
-The revised policy will be posted at this URL with a new effective date.
-
-## Contact
-
-For privacy questions, email <!--email_off--><a href="mailto:priya.satralkar8@gmail.com">priya.satralkar8@gmail.com</a><!--/email_off-->.
-
-## Legal documents
-
-- [Driving Hours Tracker Terms of Use](https://sahilsatralkar.com/apps/driving-hours-tracker/terms)
-- [Driving Hours Tracker Support](https://sahilsatralkar.com/apps/driving-hours-tracker/support)
+For privacy questions, email <!--email_off--><a href="mailto:priya.satralkar8@gmail.com">priya.satralkar8@gmail.com</a><!--/email_off-->. [Terms of Use](https://sahilsatralkar.com/apps/driving-hours-tracker/terms) · [Driving Hours Tracker Support](https://sahilsatralkar.com/apps/driving-hours-tracker/support)
