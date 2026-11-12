@@ -12,250 +12,83 @@ canonical_url: https://sahilsatralkar.com/apps/driving-hours-tracker/support
 locale: en-GB
 ---
 
-Driving Hours Tracker helps learner drivers record practice drives, review private route evidence, track personal goals, and create a privacy-reduced PDF practice record.
+Driving Hours Tracker appears as **Driving Hours** on your iPhone. Use it to log everyday drives or track learner practice. It requires an iPhone running iOS 26 or later.
 
-## Contact
+## Contact support
 
-For help, email <!--email_off--><a href="mailto:priya.satralkar8@gmail.com">priya.satralkar8@gmail.com</a><!--/email_off-->.
+In the app, open **Settings → Support & About → Contact Support**. This opens a draft email with your app version filled in. You can also email <!--email_off--><a href="mailto:priya.satralkar8@gmail.com">priya.satralkar8@gmail.com</a><!--/email_off-->.
 
-Please include:
+Include your iPhone model, iOS version, app version, and whether you installed from the App Store or TestFlight. Tell us which screen you were on, what you did, and the exact error message, if one appeared.
 
-- your iPhone model;
-- your iOS version;
-- the Driving Hours Tracker app version and build, if known;
-- whether the app came from the App Store or TestFlight;
-- the screen and step where the issue occurred;
-- the exact error message, if one appeared; and
-- a screenshot or screen recording only if it contains no sensitive information.
+For purchase issues, include your plan, whether you purchased it or received access through Family Sharing, and roughly when you purchased or tried to restore it. Leave out passwords, payment details, receipts, licence or permit numbers, routes, addresses, private notes, and exported PDFs. If a screenshot would help, crop or redact those details first.
 
-For a purchase or restoration issue, also include:
+## Recording a drive
 
-- whether the plan is Weekly or Monthly, if known;
-- whether access was purchased directly or received through Apple Family Sharing;
-- the approximate date and time of the purchase or Restore attempt; and
-- the exact message shown by the app.
+### How do I start, pause, or end a drive?
 
-Driving Hours Tracker does not display a RevenueCat App User ID or Purchase Support ID.
+Complete setup on your iPhone and allow Location access. On **Overview**, tap **Record** before you set off. Use **Pause** and **Resume** if you need to exclude a break. When safely stopped, tap the square **End Drive** button. Recorded time includes stops while recording and excludes pauses.
 
-Do not email:
+If you see **Save this drive?**, choose **Save** to add the recording to your logbook or **Discard** to remove it. This can happen after a short recording. If you used a free Start, either choice leaves that Start used.
 
-- an Apple Account password;
-- payment-card information;
-- an App Store receipt or transaction document;
-- a permit or licence number;
-- a learner's full legal identity;
-- exact coordinates, a route screenshot, or a route export;
-- a generated PDF; or
-- sensitive Notes or other learner records.
+### Why is my route missing or incomplete?
 
-## Requirements
+Check that Driving Hours has Location access in iPhone Settings and that **Precise Location** is on. GPS conditions, permission changes, and interruptions can leave gaps. The timer can continue when a usable location signal is unavailable. Distance and speed are estimates based on the data captured.
 
-- An iPhone running iOS 26 or later
-- An Apple Account and iCloud for private synchronization between iPhones
-- Location permission for private route, Estimated Distance, endpoints, and more complete Night Estimate features
-- Network access for purchases, Restore Purchases, iCloud synchronization, and some Apple Maps content
-- A compatible CarPlay vehicle or simulator for the optional CarPlay interface
-- An unused free drive or active Full Access to start a new drive
+To change between kilometres and miles, open **Settings → Personalization → Distance unit**. Changing units keeps the underlying recorded distance.
 
-Time recording and locally available records can remain usable without location, iCloud, or a continuous internet connection when Start is locally authorized.
+### What if the app closed during a drive?
 
-## Frequently asked questions
+Reopen Driving Hours on the same iPhone. If the app recovers the recording and you are still on the drive, choose **Keep Recording**. If the drive is over, tap **End Drive** when safely stopped and review the saved record. An interruption may leave a gap in the route.
 
-### Where is my data stored?
+### Can I edit or delete a saved drive?
 
-Driving Hours Tracker stores its authoritative active-drive and logbook data locally on your iPhone.
+Open a drive from **Recent drives** on Overview or from the **Drives** list. Use **Add Note** or **Edit** in the Notes section. Recorded times, route, and vehicle are fixed when the drive is saved. The app records drives you start in Driving Hours, so keep a separate record if you forgot to start.
 
-Eligible finished data can synchronize through your private Apple CloudKit database when iCloud is available. This can include exact private routes. Driving Hours Tracker does not operate a separate learner-data server or a shared family logbook.
+To remove a drive and its stored route, open the drive, tap the **More** menu, then choose **Delete Drive** and confirm.
 
-RevenueCat processes only the anonymous purchase and entitlement information needed for Full Access. Learner names, permit references, drives, routes, locations, goals, cars, Notes, PDFs, and the free-drive allowance are not sent to RevenueCat.
+## Practice goals and vehicles
 
-### Is iCloud synchronization immediate?
+Open **Settings → Driving → Practice goal** to set a target and date or edit your current goal. Progress counts saved drives across all vehicles that started on or after the goal began. You can create or edit a goal while you have a free Start remaining or active Pro access. You can still view progress or turn off the goal after you run out of free Starts.
 
-No. CloudKit synchronization is managed by Apple and is asynchronous.
+Manage your vehicles under **Settings → Driving → Vehicles**. Free includes one vehicle for recording. Driving Hours Pro lets you add and switch between additional vehicles.
 
-Changes normally synchronize automatically, but they may be delayed by the network, iCloud capacity, Apple Account state, device state, or Apple service conditions. Use **Settings → Device and Data → Sync Now** or **Retry iCloud Sync** to request another synchronization attempt.
+## Free recordings and Driving Hours Pro
 
-An active drive remains local to the iPhone that started it. It cannot be viewed as controllable or finished from another iPhone.
+### How do the three free Starts work?
 
-### Can I use the app without iCloud?
+Free includes three lifetime recording Starts. A successful Start on Free uses one. Failed Starts, Pause, and Resume leave the allowance unchanged. Discarding or deleting a recording does not give that Start back.
 
-Yes. Locally authorized Start, Active Drive, Finish, review, History, settings changes, deletion, and local PDF creation use locally available data and do not depend on iCloud.
+Driving Hours Pro adds further recordings, multiple vehicles, detailed Insights, collection creation and editing, and new PDF exports. Monthly is an auto-renewing subscription. Lifetime is a one-time purchase. The purchase screen shows your current price and any trial Apple offers you.
 
-Without iCloud, data does not synchronize to another iPhone. If the app or device is lost before data synchronizes, that data may be unrecoverable.
+### How do I restore, manage, or refund a purchase?
 
-### Why is my route partial, reduced in accuracy, or unavailable?
+- **Restore access.** Connect to the internet, use the App Store account associated with the purchase or eligible Family Sharing access, and tap **Restore Purchases** on the Driving Hours Pro purchase screen. If a purchase is still being verified and you see **Check Again**, use it to refresh your access.
+- **Manage or cancel a subscription.** In the app, go to **Settings → Driving Hours Pro → Manage Subscription** while the subscription is active. You can also manage it through Apple. Deleting the app leaves the subscription active until you cancel it. [Apple’s subscription instructions](https://support.apple.com/en-us/118428)
+- **Request a refund.** Submit your request directly to Apple through [Report a Problem](https://reportaproblem.apple.com/).
 
-Route capture depends on location permission, GPS conditions, iOS background execution, the device, and the environment.
+If Pro access ends, you can finish an active drive, view saved drives and collections, and open or share PDFs already saved in the app.
 
-- **Partial** means part of the route was not captured.
-- **Reduced Accuracy** means captured samples had a material accuracy limitation.
-- **Unavailable** means there was not enough usable route evidence.
+## PDF reports
 
-Partial and Reduced Accuracy can appear together. Driving Hours Tracker preserves captured evidence and does not draw a substantial missing section as verified travel.
+- **Several drives.** Open **Settings → Reports → Prepare PDF report**. Choose the date range and vehicle, then tap **Preview PDF**. From the preview, you can save the report in the app or share a copy. Find in-app copies under **Saved reports**. These reports use approximate start and finish areas.
+- **One drive.** Open the saved drive and tap **Share PDF** in the toolbar.
+- **A collection.** Open **Collections** from Overview, choose a collection, and tap **Export PDF** in the toolbar.
 
-### Will a location problem stop the timer?
+Creating a new PDF requires Pro. Drive and Collection PDFs can contain recorded route maps, full endpoint addresses, and notes. Review the PDF before sharing it. Copies you share or save elsewhere are managed at their destination.
 
-No. Timer validity does not depend on location.
+## iCloud and data deletion
 
-If location is denied, revoked, interrupted, or unavailable, elapsed-time recording and Finish can still work. Route, Estimated Distance, endpoints, or Night Estimate may be limited, unavailable, or Unclassified.
+Your logbook is stored on your iPhone. When iCloud is available, eligible saved data can sync to other iPhones using the same Apple Account. If a saved drive is missing on another iPhone, check that both phones use the same iCloud account, have iCloud enabled for Driving Hours, and are online. Allow time for synchronization. Active drives and recordings awaiting **Save** or **Discard** stay on the iPhone that started them.
 
-### What is Estimated Distance?
+You can delete individual drives, vehicles, collections, and saved reports from their screens. Deleting the app normally removes its local data. Data already in iCloud and copies of PDFs saved elsewhere can remain. For steps to remove iCloud data, see **Settings → Privacy & Legal → About Your Data** in the app.
 
-Estimated Distance is calculated after Finish from accepted consecutive location samples within continuous captured route segments.
+## CarPlay and notifications
 
-It is not an odometer reading or verified travel distance. The app does not fill a substantial GPS gap, use a straight line between Start and Finish, or use an Apple Maps planned route.
+Complete setup and grant Location access on your iPhone before using Driving Hours on a compatible CarPlay system. You can start and end a recording using the controls shown in CarPlay.
 
-You can choose Miles or Kilometers in Settings. Changing the unit reformats the same stored canonical distance and future PDFs; it does not change the drive.
+Under **Settings → Driving → Auto-end drive**, you can choose a delay after CarPlay disconnects. Reconnecting before the delay ends cancels the pending stop. For drives recorded without CarPlay, tap **End Drive** when safely stopped. You can manage drive reminders and confirmations under **Settings → Driving → Notifications**.
 
-### What is Night Estimate?
-
-Night Estimate is a best-effort astronomical classification based on recorded time, available location, and time-zone evidence.
-
-Time that cannot be classified reliably is shown as **Unclassified**. The result is not a legal-night-hours determination and may not match licensing requirements where you live.
-
-### What should I do if the app closes during a drive?
-
-Reopen Driving Hours Tracker on the same iPhone. When the local record survives, the app restores the durable active drive and reconstructs elapsed time.
-
-Location capture may contain a disclosed gap. The app does not guess a Finish time. Finish the drive when safe, then review or delete it if the recorded timing is not suitable.
-
-### What happens if I forget to Start or Finish?
-
-A drive cannot be created retrospectively. If you forgot to Start, the app cannot add the missing drive.
-
-If you forgot to Finish, the active timer continues until you explicitly Finish. Review the resulting record and delete the whole drive if it is not suitable. Recorded Start, Finish, duration, route, Estimated Distance, Night Estimate, and captured car cannot be edited.
-
-### Can I edit a drive?
-
-While a finished drive is **Needs Review**, you can edit Weather, Roads, Skills, and Notes.
-
-**Confirm Details** changes it to **Reviewed** and permanently locks those descriptive fields. Recorded Start, Finish, duration, route, Estimated Distance, Night Estimate, and captured car are always immutable. If an immutable or Reviewed value is unacceptable, delete the whole drive and record a new one when appropriate.
-
-### Can I add earlier drives or import another logbook?
-
-No. Driving Hours Tracker records only drives created through Start and Finish in this app.
-
-It does not support manual drives, prior-hour balances, CSV import, PDF import, another-app import, or backup-file import. The PDF is a shareable snapshot, not an app backup.
-
-### Can I record on more than one iPhone?
-
-Yes. Each iPhone can have its own local active drive, including while offline.
-
-Finished drives can later synchronize through private iCloud. Different drive identifiers remain separate even if their times overlap. The app does not merge routes or timers automatically.
-
-### Does Family Sharing share my logbook?
-
-No. Eligible Apple Family Sharing can provide Full Access only.
-
-It does not share or combine learner names, permit references, drives, routes, cars, goals, PDFs, or the free-drive allowance. Private iCloud data remains tied to the relevant learner Apple Account data scope.
-
-### How does the one free drive work?
-
-A new learner data scope begins with one free-drive allowance.
-
-Only a successfully saved Start that uses the free tier consumes it. A failed Start does not consume it. A Start made with active paid, trial, or Family-shared Full Access leaves the allowance unchanged.
-
-Deleting the free drive, deleting the app, or erasing the logbook does not provide another free drive.
-
-### How do I restore Full Access?
-
-Open **Settings → Access → Restore Purchases**.
-
-Use the App Store account associated with the original purchase or eligible Apple Family Sharing access. A successful Restore activates Full Access but does not automatically start a drive.
-
-If the app cannot verify an earlier purchase after a fresh installation, connect to the internet and try Restore Purchases again.
-
-### How do I manage or cancel a subscription?
-
-Open **Settings → Access → Manage Subscription** in Driving Hours Tracker.
-
-The app opens Apple's subscription-management interface.
-
-You can also follow Apple's instructions at [If you want to cancel a subscription from Apple](https://support.apple.com/118428).
-
-Deleting Driving Hours Tracker does not cancel a subscription.
-
-### How do I request a refund?
-
-Apple processes App Store payments and refund requests.
-
-Visit [reportaproblem.apple.com](https://reportaproblem.apple.com/) and follow Apple's instructions. Driving Hours Tracker support cannot directly approve an App Store refund.
-
-### What happens when Full Access expires?
-
-An active drive is not interrupted. Finish, finalization, review, saved History, routes, estimates, goals, iCloud, PDFs, deletion, and Settings remain available.
-
-Only a later Start may require an unused free drive or renewed Full Access. Turning off auto-renew keeps access until the current Apple-provided expiry date.
-
-### How do I delete one drive?
-
-Open History or Drive Detail and choose **Delete Drive**.
-
-After confirmation, the drive, exact route, and derived results are removed from the current logbook and synchronization deletion is scheduled. There is no app-provided undo or Recently Deleted area.
-
-Deleting a drive never restores a used free-drive allowance. A previously shared PDF cannot be recalled.
-
-### How do I erase the whole logbook?
-
-Open **Settings → Erase Logbook Data and Start Over**.
-
-The action removes the current learner logbook locally and from private iCloud where possible. It is unavailable while a drive is Recording or Finalizing.
-
-Erase Logbook Data does not cancel or refund a subscription, change Full Access, or restore a used free drive. Previously shared PDFs remain outside the app's control.
-
-### What happens if I delete the app?
-
-Deleting Driving Hours Tracker normally removes its local app container. Unsynchronized information, including an active drive, may be unrecoverable.
-
-Deleting the app does not automatically:
-
-- remove data already stored in private iCloud;
-- cancel an App Store subscription;
-- delete purchase records held by Apple or RevenueCat;
-- restore a used free drive; or
-- recall a shared PDF.
-
-### How do I create and share a PDF?
-
-Open **Settings → Device and Data → Create PDF Practice Record**. Choose all available drives or a date range, then generate and preview the PDF before sharing it through the iOS share sheet.
-
-The PDF is created locally. It can include learner-entered information, totals, drive details, Estimated Distance, Night Estimate, quality disclosures, and privacy-reduced endpoints. It never includes exact coordinates, street addresses, route geometry, route thumbnails, or route links.
-
-After you save or share a PDF, that copy is outside the app's control and cannot be recalled.
-
-### What does CarPlay support?
-
-On a compatible vehicle with the required Apple capability, CarPlay provides a deliberately limited interface.
-
-It can show the Selected Car and an eligible **Start Drive** or clearly identified **Start Free Drive** action while idle. During Recording it shows elapsed time and **Finish**. It does not include a paywall, prices, trials, purchase controls, route inspection, navigation, metadata editing, or Pause.
-
-A CarPlay Start never triggers a location-permission prompt on the vehicle display. Disconnecting CarPlay does not stop an active drive.
-
-### What do the widget and Live Activity store?
-
-The widget uses a compact local projection for setup or access state, learner name, Selected Car, total time, goal progress, and active-drive status where appropriate.
-
-The Live Activity uses a random drive identifier, captured car name, and Start time to show Recording and elapsed time.
-
-Neither receives the exact route. A Live Activity is a status projection, not the authoritative drive record, and does not provide Finish.
-
-### Does Apple Maps record my destination in Driving Hours Tracker?
-
-No. Driving Hours Tracker can open Apple Maps after Start, but it does not save the destination, import the planned route, or treat Apple Maps navigation as recorded evidence.
-
-The app's private route is based only on the location samples that Driving Hours Tracker itself captured.
-
-### Does Driving Hours Tracker track me?
-
-Driving Hours Tracker uses location only for the private drive-recording features described in the app and its Privacy Policy.
-
-The app does not contain advertising, request App Tracking Transparency permission, access IDFA, perform cross-app tracking, or send learner and drive information to a custom analytics service.
-
-RevenueCat processes the anonymous purchase and entitlement information required for subscriptions. Apple may process iCloud, App Store, Maps, system-surface, and diagnostic information under your Apple settings and Apple's policies.
-
-See the [Driving Hours Tracker Privacy Policy](https://sahilsatralkar.com/apps/driving-hours-tracker/privacy) for details.
-
-## Legal
+## Privacy and terms
 
 - [Driving Hours Tracker Privacy Policy](https://sahilsatralkar.com/apps/driving-hours-tracker/privacy)
 - [Driving Hours Tracker Terms of Use](https://sahilsatralkar.com/apps/driving-hours-tracker/terms)
